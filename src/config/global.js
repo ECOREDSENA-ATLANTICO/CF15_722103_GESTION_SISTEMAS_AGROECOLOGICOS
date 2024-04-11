@@ -1,17 +1,19 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Labores de manejo en la producción pecuaria',
+    descripcionCurso:
+      'Este componente los lleva a entender desde una perspectiva ampliada los principios y labores del manejo animal por especie en tanto a la alimentación, alojamiento, salud, pruebas de composición, tiempos de retiro y normatividad.',
+    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
+    fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/images/header/2.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/images/header/1.svg'),
       },
     ],
   },
@@ -24,34 +26,64 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info-circle',
+        icono: 'fas fa-info',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Labores de manejo animal por especie',
         desarrolloContenidos: true,
         subMenu: [
           {
+            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Condiciones ambientales',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Manejo de semillas y material de propagación',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Arreglos topológicos',
+            hash: 't_1_3',
           },
         ],
       },
 
       {
         nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Identificación animal',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Tipo, limpieza, calibración y mantenimiento',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Cronogramas y formatos',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Conducción y movimiento de animalese',
         desarrolloContenidos: true,
       },
     ],
@@ -84,11 +116,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -100,128 +127,188 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'Brechelt, A. (2004). Manejo ecológico de plagas y enfermedades. Red de Acción en Plaguicidas y sus Alternativas para América Latina. (RAP-AL)  ',
+      link:
+        'https://webzoom.freewebs.com/rentawebscr/alonsocr2013/descargas/Manejo_Ecologico_de_Plagas_A.Bretchel.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Escalante, L., Linzaga, E., Escalante, E. y Carreño E. (2007). Formas de Preparar el Terreno de Siembra para Obtener Buenas Cosechas. Colegio Superior Agropecuario del Estado de Guerrero. Instituto de Investigación Científica Área de Ciencias Naturales. Universidad Autónoma de Guerrero. Revista Alternativa. 4(13).',
+      link: 'https://uniprofesoraalba.files.wordpress.com/2010/02/siembra.pdf',
+    },
+    {
+      referencia:
+        'FAO. (1991).  Guía para la manipulación de semillas forestales. Centro de Semillas Forestales de DANIDA',
+      link: 'https://www.fao.org/3/ad232s/ad232s00.htm#TOC',
+    },
+    {
+      referencia:
+        'Franco, P. (2012). Manejo integrado de recurso hídrico. Corporación Centro de Investigación en Palma de Aceite (Cenipalma), Fedepalma.',
+      link:
+        'https://repositorio.fedepalma.org/bitstream/handle/123456789/107700/GM%20Manejo%20integrado%20del%20recurso%20H%C3%ADdrico.pdf?sequence=1',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Siembra',
+      significado: 'Dispersión de semillas en un terreno.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Semilla criolla:',
+      significado:
+        'Aquellas semillas que han logrado adaptarse a unas determinadas condiciones del entorno,  de modo natural o por intervención antrópica.',
+    },
+    {
+      termino: 'Arreglo topológico',
+      significado:
+        'Se definen como la distribución de las plantas en la superficie sembrada, cantidad y disposición de las mismas en un terreno. ',
+    },
+    {
+      termino: 'Escarificación',
+      significado:
+        'proceso de desgaste de la cubierta de la semilla con el fin de permitir el paso del agua y oxígeno necesarios para iniciar la germinación.',
+    },
+    {
+      termino: 'Surcos',
+      significado:
+        'Distribución de las semillas en hileras, y a una distancia de dos o tres centímetros de separación.',
+    },
+    {
+      termino: 'Material vegetativo',
+      significado: 'Parte de planta o planta viva destinadas a ser plantadas.',
+    },
+    {
+      termino: 'Voleo',
+      significado:
+        'Las semillas son distribuidas y colocadas en forma dispersa, no alineada.',
+    },
+    {
+      termino: 'Rotación de cultivos',
+      significado:
+        'Alternar cultivos en un mismo suelo, con el fin  de preservar los nutrientes disponibles en el suelo.',
+    },
+    {
+      termino: 'Calibración',
+      significado:
+        'Significa utilizar un estándar de medición, para determinar la relación entre el valor mostrado por el instrumento de medición y el valor verdadero.',
+    },
+    {
+      termino: 'Cronograma de siembra',
+      significado:
+        'Permite establecer una guía de las temporadas del año y las condiciones de siembra en cada una, con el fin de poder establecer un alto porcentaje de crecimiento y desarrollo del cultivo.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      tema: '1.3. Manejo de semillas y material de propagación.',
+      referencia:
+        'Centro de Semillas Forestales de DANIDA. FAO (1991). Guía para la manipulación de semillas forestales ',
+      tipo: 'Libro',
+      link: 'https://www.fao.org/3/ad232s/ad232s00.htm#TOC',
+    },
+    {
+      tema: '1.4. Arreglos topológicos.',
+      referencia:
+        'Tips y temas agronómicos.  [Tips y Temas Agronómicos]. (2022, 7 de febrero). Densidad de plantación [Video]. Youtube',
+      tipo: 'Video',
+      link: 'https://youtu.be/MOYVpQWbkC0',
     },
   ],
-  creditos: [
-    {
-      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
-      autores: [
-        {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
-          centro: 'Dirección General',
-        },
-        {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-      ],
-    },
-    {
-      titulo: 'CONTENIDO INSTRUCCIONAL',
-      autores: [
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-      ],
-    },
-    {
-      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
-      autores: [
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-      ],
-    },
-    {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
-      autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
-      ],
-    },
-  ],
-  creditosAdicionales: {
-    imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
-    creativeCommons:
-      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
+  creditos: {
+    liderEquipo: [
+      {
+        nombre: 'María Camila García Santamaría',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
+    contenidoInstruccional: [
+      {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Responsable de Desarrollo Curricular',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Diana Julieth Núñez Ortegón',
+        cargo: 'Experta Temática',
+        centro: 'Centro de Comercio y Servicio - Regional Tolima',
+      },
+      {
+        nombre: 'Paola Alexandra Moya Peralta',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora Metodológica',
+        centro: 'Centro de Diseño y Metrología  - Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología - Distrito Capital',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Marcela Alarcon Granados',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gustavo Adolfo Marún Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Mayra Alejandra Alvarez ',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+    ],
+    gestoresRepositorio: [
+      {
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+    ],
   },
   // creditosInicio: [
   //   {
