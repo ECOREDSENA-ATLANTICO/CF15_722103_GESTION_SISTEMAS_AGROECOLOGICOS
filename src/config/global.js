@@ -36,26 +36,6 @@ export default {
         numero: '1',
         titulo: 'Labores de manejo animal por especie',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Condiciones ambientales',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Manejo de semillas y material de propagación',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Arreglos topológicos',
-            hash: 't_1_3',
-          },
-        ],
       },
 
       {
@@ -64,20 +44,6 @@ export default {
         numero: '2',
         titulo: 'Identificación animal',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Tipo, limpieza, calibración y mantenimiento',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Cronogramas y formatos',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -139,6 +105,20 @@ export default {
         numero: '7',
         titulo: 'Registros',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.1',
+            titulo: 'Indicadores de bienestar animal',
+            hash: 't_7_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.2',
+            titulo: 'Control de calidad y puntos de control',
+            hash: 't_7_2',
+          },
+        ],
       },
     ],
     subMenu: [

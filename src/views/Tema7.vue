@@ -4,134 +4,145 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.cs
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero 
-        span 3
-      h1 Conducción y movimiento de animales
+        span 7
+      h1 Registros
 
     .row.justify-content-center.align-items-center.mb-0
-      //- .row.justify-content-center.align-items-end.mb-5
-      .col-lg-7.mb-3
-        p Para disminuir el estrés de los animales de producción, es de importancia contar con unas instalaciones y medios de transporte adecuado y bajo los parámetros técnicos, un diseño apropiado de cada uno de los lugares del proyecto con el fin de realizar actividades como recepción, pesaje, aplicación de medicamentos, entre otros.     
-        p Es por ello que se recomienda un diseño adecuado de las instalaciones en el cual las paredes de los corrales tengan materiales sólidos, con un color que evite que el animal se rehusé a pasar por estas zonas y que ningún material que sea corto punzante, con el fin de evitar heridas o laceraciones logrando que las áreas sean acordes al espacio de la especie a trabajar. Un ejemplo de ello es lo mostrado en la siguiente figura:
-      .col-lg-5
+      .col-lg-6
+        p Son un documento que determina una actividad específica y propia de una empresa o establecimiento el registro, en cual se documenta en un archivo la trazabilidad del manejo animal. Este debe ir con unos parámetros de información de importancia para la empresa que se mencionan a continuación: 
+
+        .col-md-10
+          .tarjeta.tarjeta--gris.p-4
+            ul.lista-ul.mb-0
+              li
+                i.fas.fa-check.txt--green
+                | Logo de la empresa.
+              li
+                i.fas.fa-check.txt--green
+                | Razón social. 
+              li
+                i.fas.fa-check.txt--green
+                | Nombre del registro. 
+              li
+                i.fas.fa-check.txt--green
+                | Realizado por 
+              li
+                i.fas.fa-check.txt--green
+                | Fecha de Diligenciamiento.
+              li
+                i.fas.fa-check.txt--green
+                | Aprobado. 
+              li
+                i.fas.fa-check.txt--green
+                | Fecha de aprobación. 
+              li
+                i.fas.fa-check.txt--green
+                | Aspectos a registrar (actividad).
+              li
+                i.fas.fa-check.txt--green
+                | Aspectos adicionales u observaciones.
+
+      .col-lg-6.mb-4
         figure
-          img.img-t(src='@/assets/curso/images/tema3/img_1.png', alt='')
+          img.img-t(src='@/assets/curso/images/tema7/img_1.png', alt='')
+
+
+    .row.align-items-center.mb-3
+      .col-lg-6(data-aos="fade-right")
+        p El manejo de registros es una herramienta útil e indispensable que genera en la empresa ganadera un soporte financiero y rentable, además de crear un archivo que permite ver cómo avanzan las labores económicas y productivas.
+        .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-4.mb-lg-0
+          p.m-0 Dado lo anterior, puede crear u obtener algunos formatos para registro basados de acuerdo a las necesidades e igualmente tener claridad que en Colombia el Instituto Colombiano Agropecuario – ICA enuncian algunos de acuerdos de acuerdo al manejo pecuario:
+      .col-lg-6.mb-3(data-aos="fade-left")
+        .row
+          .col-lg-6
+            .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema7/img_5.svg', alt='')
+                .tarjeta.tarjeta--gris.shadow-sm
+                  .p-4
+                    p.text-small Registro de ingreso de personas y vehículos.
+                      
+            .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema7/img_5.svg', alt='')
+                .tarjeta.tarjeta--gris.shadow-sm
+                  .p-4
+                    p.text-small Registro Sanitario de Predio Pecuario –RSPP- o Inscripción Sanitaria de Predio Pecuario –ISPP. (ICA) 
                 
+            .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema7/img_5.svg', alt='')
+                .tarjeta.tarjeta--gris.shadow-sm
+                  .p-4
+                    p.text-small Registro de temperatura de biológicos. 
+                    
+          .col-lg-6
+            .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema7/img_5.svg', alt='')
+                .tarjeta.tarjeta--gris.shadow-sm
+                  .p-4
+                    p.text-small Registro de tratamientos veterinarios.
+                      
+            .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema7/img_5.svg', alt='')
+                .tarjeta.tarjeta--gris.shadow-sm
+                  .p-4
+                    p.text-small Registro de uso de medicamentos por animal.
+ 
+                
+            .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema7/img_5.svg', alt='')
+                .tarjeta.tarjeta--gris.shadow-sm
+                  .p-4
+                    p.text-small Registro de la rotación de animales en potreros y la utilización de plaguicidas y fertilizantes. 
+    
+    Separador
+
+    #t_7_1.titulo-segundo
+      .h2 7.1 Indicadores de bienestar animal
+    
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-12.mb-3
+        p Los indicadores de bienestar son todas las características observables o medibles que se relacionan con el aspecto de los animales de los cuales se puede nombrar la condición corporal, expresión facial y postura. Podremos el indicador en aspectos ambientales los cuales no se pueden medir en los animales sino en el entorno de la producción y un ejemplo son los diseños de las instalaciones con provisiones del agua y el otro indicador en la característica del animal sobre su apariencia, salud y las constantes fisiológicas. Detallemos a continuación los indicadores:
+       
     .row.justify-content-center.align-items-center
-      .tarjeta.tarjeta--blanca.p-4
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 1.
-          span  Conducción de animales  
-              
-        figure
-          img(src='@/assets/curso/images/tema3/img_2.png', alt='Texto que describa la imagen')
-
-    .row.justify-content-center.align-items-center.mb-0.mt-3
       .col-md-10
-        p El transporte o desplazamiento de animales se debe realizar de la manera más calmada posible y sin ocasionar ningún daño o dolor minimizando los procesos de estrés haciendo la guianza dentro de la planta o hacia otros lugares. Si es necesario un medio de transporte debe realizarse según los parámetros técnicos establecidos en los cuales se incluyen las actividades de carga, descarga, transbordo y descenso.s
-        p Dado lo anterior es importante tener algunos aspectos a tener en cuenta en la conducción y movilización de animales:
-
-    .row.justify-content-center.align-items-center.mb-5.mt-5
-      .col-lg-6
-        .tarjeta.tarjeta--gris.p-4
-          ul.lista-ul.mb-0
-            li
-              i.fas.fa-check.txt--green
-              | Determinación del encargado del operario. 
-            li
-              i.fas.fa-check.txt--green
-              | Capacitación requerida por parte de la empresa al operario. 
-            li
-              i.fas.fa-check.txt--green
-              | Planificación del viaje o traslado. 
-            li
-              i.fas.fa-check.txt--green
-              | Planes de contingencia. 
-            li
-              i.fas.fa-check.txt--green
-              | Selección de la especie animal apta para transportar
-            li
-              i.fas.fa-check.txt--green
-              | Instalaciones adecuadas al punto de llegada. 
-            li
-              i.fas.fa-check.txt--green
-              | Manejo adecuado (no utilizar ningún instrumento que cause dolor) 
-            li
-              i.fas.fa-check.txt--green
-              | Períodos de descanso y fuentes de agua.
-            li
-              i.fas.fa-check.txt--green
-              | Asistencia veterinaria.
-            li
-              i.fas.fa-check.txt--green
-              | Información sobre las condiciones del viaje. 
-      .col-lg-6
-        figure
-          img.img-t(src='@/assets/curso/images/tema3/img_3.png', alt='')
-
-    .row.justify-content-center.align-items-center.mb-0.p-md-3
-      .col-lg-10
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img.h-100
-            img.img-t.m-auto.w-50(src='@/assets/curso/images/tema3/img_7.png', alt='')
-          .tarjeta.color-primario.shadow-sm
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                h3.mb-2 Movilización de Ganado
-                p.mb-2 Puede ampliar algunos de los requisitos para movilización y transporte para el caso bovino en el territorio nacional, ingresando a la siguiente página web:  
-              .col-sm-auto
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/Administrador-Paginas-Inicio.pdf')" target="_blank")
-                  span Abrir
-                  i.fas.fa-link
-    
-    .row.justify-content-center.align-items-center.mb-3
-      .col-lg-10        
-        .tarjeta.mb-3(data-aos="zoom-in-up")
-          .row.justify-content-center.align-items-star
-            .col-md-6.mb-3.mb-md-0.p-4
-              h4.mb-3.text-white.bg-c1.py-2.px-3 Método de cinta
-              p.mb-3 
-                | Es importante el control y manejo para el grupo de animales basado en la manera oportuna de prevenir percances durante el traslado. Dado lo anterior revisemos algunas de las técnicas de movilización que se deben considerar:
-            
-            .col-lg-6.mb-0.mb-lg-6.mt-auto(data-aos="fade-left")
-              figure
-                img(src='@/assets/curso/images/tema3/img_8.svg', alt='Texto que describa la imagen')
-    
-
-
-    TabsC.color-acento-contenido.mb-3
-      .py-3.py-md-4(titulo="Zona de huida o de fuga")
-        .row
-          .col-md-7
-            figure
-              img(src='@/assets/curso/images/tema3/img_4.png', alt='Texto que describa la imagen')
-          .col-md-5.mb-4.mb-md-0
-            p Es la manera más adecuada para movilizar cualquier animal de producción dado que es el espacio que tiene para moverse y si un operario lo interrumpe tiende a moverse y si sale de ahí de inmediato se detiene. Este espacio depende de la docilidad del animal y el ángulo de visibilidad hacia la persona que se aproxima, por lo que esta zona de huida se agranda cuando se viene de frente y se minimiza cuando está dentro de un brete de manejo donde cualquier circunstancia de excitación provocará que esta zona aumente de tamaño. 
-            p Una persona debe estar lo suficientemente cerca del ganado para lograr que éste camine, pero no demasiado dado que puede provocar el pánico y huida. Finalmente tenga en cuenta que si es un animal manso puede realizar el manejo con una cuerda o bozal pero jamás usar caninos. 
-          
-      .py-3.py-md-4(titulo="Punto de balance")
-        .row
-          .col-md-7.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/images/tema3/img_5.png', alt='Texto que describa la imagen')
-          .col-md-5
-            p Este es un punto determinante pues la persona ubicada casi atrás genera que el animal camine, pero si se ubica hacia delante el animal retrocederá. En el caso de los bovinos y equinos no se recomienda hacerse detrás en el punto ciego pues la reacción es la de patear y es mejor manejarlos en grupo que individual.
-            p Otro principio es que los animales de pastoreo, solos o en grupo, se moverán hacia adelante cuando un vaquero pasa rápidamente su punto de balance de la cruz en dirección contraria a la deseada para el movimiento. Los movimientos descritos en zona del trabajador sirven para inducir al ganado a entrar a una manga reduciendo notablemente o eliminando el uso de la picana eléctrica.
-
-    .row.justify-content-center.align-items-center.mb-3
-      .col-md-10
-        .tarjeta.tarjeta--blanca.p-3
+        .tarjeta.tarjeta--blanca.p-4
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 2.
-            span  Zona de fuga y punto de balance
+            h5 Figura 5.
+            span  Indicadores de bienestar animal
                 
           figure
-            img(src='@/assets/curso/images/tema3/img_6.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/images/tema7/img_2.png', alt='Texto que describa la imagen')
+
+    #t_7_2.titulo-segundo
+      .h2 7.2  Control de calidad y puntos de control
+    
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-8.mb-5
+        p  Garantizar la calidad de la producción y la seguridad de las producciones, requieren una organización de los sistemas de gestión de calidad, pues la visualización de cada empresa es incrementar los volúmenes de producción con el fin de satisfacer las necesidades de alimentación de la población.
+        p  Esta implementación ha traído buenos resultados con el fin de impulsar el desarrollo de las producciones (trazabilidad) pero va muy relacionada con factores genéticos, nutricionales, ambientales, sanitarios, manejo y sus interacciones.
+        p  Por eso la tendencia mundial es implementar sistemas de gestión que cambien la perspectiva de la cadena productiva de las especies animal, con el fin de identificar y prevenir toda clase de riesgo.
+
+      .col-md-4.mb-5
+        figure
+            img(src='@/assets/curso/images/tema7/img_4.png', alt='Texto que describa la imagen')
+
+      .col-md-10.mb-5   
+          figure
+            img(src='@/assets/curso/images/tema7/img_3.png', alt='Texto que describa la imagen')
+
+      p  Los sistemas de Análisis de Peligros y Control de Puntos Críticos (HACCP) son una herramienta que garantiza la seguridad de los alimentos dado que se puede enfocar en la preservación de la salud animal bajo principios de las buenas prácticas de producción. El reconocimiento, análisis de los peligros e identificación de los puntos críticos para implementar un sistema de vigilancia y monitoreo de todos los sistemas de producción hace parte primordial del manejo de la producción pecuaria.
+      p  En el caso de la porcicultura cabe decir que se centra en los procedimientos de higiene de personal al ingresar a las plantas y evitar que cualquier microorganismo entre previniendo cualquier infestación de enfermedades infecciosas.
   
   </template>
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema7',
   data: () => ({}),
   mounted() {
     this.$nextTick(() => {
