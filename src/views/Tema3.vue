@@ -27,8 +27,11 @@
 
     .row.justify-content-center.align-items-center.mb-0.mt-3
       .col-md-10
-        p El transporte o desplazamiento de animales se debe realizar de la manera más calmada posible y sin ocasionar ningún daño o dolor minimizando los procesos de estrés haciendo la guianza dentro de la planta o hacia otros lugares. Si es necesario un medio de transporte debe realizarse según los parámetros técnicos establecidos en los cuales se incluyen las actividades de carga, descarga, transbordo y descenso.s
-        p Dado lo anterior es importante tener algunos aspectos a tener en cuenta en la conducción y movilización de animales:
+        .cajon-b.ajuste_cajon_b_3.color-acento-contenido.p-3.mb-1
+            p.mb-0 El transporte o desplazamiento de animales se debe realizar de la manera más calmada posible y sin ocasionar ningún daño o dolor minimizando los procesos de estrés haciendo la guianza dentro de la planta o hacia otros lugares. Si es necesario un medio de transporte debe realizarse según los parámetros técnicos establecidos en los cuales se incluyen las actividades de carga, descarga, transbordo y descenso.
+              |
+              br
+        p.p-3 Dado lo anterior es importante tener algunos aspectos a tener en cuenta en la conducción y movilización de animales:
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-6
@@ -68,27 +71,27 @@
         figure
           img.img-t(src='@/assets/curso/images/tema3/img_3.png', alt='')
 
-    .row.justify-content-center.align-items-center.mb-0.p-md-3
-      .col-lg-10
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img.h-100
-            img.img-t.m-auto.w-50(src='@/assets/curso/images/tema3/img_7.png', alt='')
+    .row.justify-content-center.align-items-center.mb-2.p-md-3
+      .col-md-10
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_7.svg', alt='')
           .tarjeta.color-primario.shadow-sm
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                h3.mb-2 Movilización de Ganado
-                p.mb-2 Puede ampliar algunos de los requisitos para movilización y transporte para el caso bovino en el territorio nacional, ingresando a la siguiente página web:  
-              .col-sm-auto
+            .row.justify-content-center.align-items-center.mb-0.p-md-3
+              .col-md-10.mb-3.mb-sm-0
+                h3.p-4.mb-0 Movilización de Ganado
+                p.p-4.mb-0 Puede ampliar algunos de los requisitos para movilización y transporte para el caso bovino en el territorio nacional, ingresando a la siguiente página web:  
+              .col-md-2
                 a.boton.color-acento-botones(:href="obtenerLink('downloads/Administrador-Paginas-Inicio.pdf')" target="_blank")
-                  span Abrir
-                  i.fas.fa-link
+                  span.text-dark Abrir
+                  i.text-dark.fas.fa-link
     
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10        
         .tarjeta.mb-3(data-aos="zoom-in-up")
           .row.justify-content-center.align-items-star
             .col-md-6.mb-3.mb-md-0.p-4
-              h4.mb-3.text-white.bg-c1.py-2.px-3 Método de cinta
+              h4.mb-3.text-white.bg-c1.py-2.px-3 Técnicas de movilización
               p.mb-3 
                 | Es importante el control y manejo para el grupo de animales basado en la manera oportuna de prevenir percances durante el traslado. Dado lo anterior revisemos algunas de las técnicas de movilización que se deben considerar:
             
@@ -125,7 +128,7 @@
             span  Zona de fuga y punto de balance
                 
           figure
-            img(src='@/assets/curso/images/tema3/img_6.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/images/tema3/img_6.svg', alt='Texto que describa la imagen')
   
   </template>
 

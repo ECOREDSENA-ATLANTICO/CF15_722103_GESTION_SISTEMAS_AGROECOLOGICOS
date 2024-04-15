@@ -17,7 +17,7 @@
         figure
           img.img-t(src='@/assets/curso/images/tema5/img_1.svg', alt='')
     
-    .row.justify-content-center.align-items-center.mb-0.mt-3 
+    .row.justify-content-center.align-items-center.mb-5.mt-3 
       .col-md-10
         .tabla-b.color-acento-contenido
           .tabla-b__header
@@ -42,8 +42,12 @@
               th Antiparasitarios externos
               td Estos productos se utilizan para controlar moscas, garrapatas, nuches, son llamados insecticidas.
    
-    h2.img.img-t.m-auto.mt-5.mb-3(src='@/assets/curso/images/tema5/img_2.svg', alt='') Equipos, instrumental e insumos
-
+    .row.mb-4
+      .col-auto
+        img(src='@/assets/curso/images/tema5/img_7.svg' , alt='')
+      .col-lg-6
+        h3.mt-4(data-aos="fade-right") Equipos, instrumental e insumos
+  
     .row.align-items-center.mb-4
       .col-lg-6(data-aos="fade-right")
         p Son elementos básicos y necesarios que se deben poseer en una explotación pecuaria y que varían de acuerdo a la actividad y especie animal. Inicialmente el formato de registro (información individual y colectiva de los animales con sus producciones o los EPP (Elementos de Protección Personal) son insumos primordiales dentro del manejo animal.
@@ -68,7 +72,7 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema5',
   data: () => ({}),
   mounted() {
     this.$nextTick(() => {

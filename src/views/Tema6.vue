@@ -7,6 +7,16 @@
         span 6
       h1 Tratamientos alternativos
 
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .bloque-texto-g.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/images/tema6/img_1.png')})`, 'width': '100%'}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 De acuerdo a lo anterior podemos clasificar las marcas con una señal para identificación pecuaria de forma grupal o individual.
+
     .row
       .col-lg-6
         .col-lg-12
@@ -54,7 +64,7 @@
           h5 Figura 4.
           span  Tratamientos alternativos de producción pecuaria 
         figure
-          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_6.png', alt='')
+          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_6.svg', alt='')
           figcaption 
             p
               span.text-bold Nota. 
