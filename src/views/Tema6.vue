@@ -9,15 +9,18 @@
 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12.mb-2
         .bloque-texto-g.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/images/tema6/img_1.png')})`, 'width': '100%'}"
+            :style="{'background-image': `url(${require('@/assets/curso/images/tema6/img_1.png')})`, 'width': '100%', 'height':'249px'}"
           )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 De acuerdo a lo anterior podemos clasificar las marcas con una señal para identificación pecuaria de forma grupal o individual.
+      .col-lg-9.mb-5
+        .bloque-texto-g__texto.p-4.jumbotron-16(
+          :style="{'top': '55px', 'position': 'relative', 'width':'100%'}"
+        )
+          p.mb-0.text-white Los tratamientos utilizados en las producciones pecuarias son implementados como una alternativa de manejo animal y/o minimizar gastos de producción. Encontrando:
 
-    .row
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
         .col-lg-12
           .tarjeta-avatar-b.mb-4

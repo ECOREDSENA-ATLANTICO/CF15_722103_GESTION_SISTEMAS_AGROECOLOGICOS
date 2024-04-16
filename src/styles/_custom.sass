@@ -165,7 +165,7 @@
 .bg_color_acento_contenido
   background-color: #ffe8e0
 
-color_acento_contenido
+.color_acento_contenido
   background-color: #ffe8e0
 
 .ajuste_cajon_b::before
@@ -176,8 +176,45 @@ color_acento_contenido
     right: 65% !important
     bottom: 0% !important
 
+.bg_16
+  background-image: url("../assets/curso/images/tema4/img_10.svg")
+  background-repeat: no-repeat
+  background-size: 100% 91%
+  @media (max-width: $bp-max-md) 
+    background-image: none
+    background-color: #DEEBAD 
+    border-top-right-radius: 80px
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    background-size: 100% 98%
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-lg)
+    background-image: none
+    background-color: #DEEBAD 
+    margin-top: 20px
+    border-top-right-radius: 80px
+
+.tarjeta.acordeonA
+  background-color: #F6F6F6
+
+.b__img_nuevo
+  left: 3px
+  top: -19px
+
+.bg_color4
+  background-color: #ADCE32
+  margin-inline: 2%
+  margin-top: -3%
+  border-radius: 0 0 10px 10px
+  @media screen and (max-width: 768px)
+    margin-inline: 18%
+    margin-top: -1.8%
+  @media screen and (max-width: 425px)
+    margin-inline: 2%
+    margin-top: -2.7%
+  @media (min-width: 769px) and (max-width: 990px)
+    margin-inline: 17.8%
+
 .cajon.color-acento-contenido 
-  background-color: #ffe9e0
+  background-color: #FFE9E1
 
 .tarjeta.color-acento-contenido 
   background-color: #FFD3C3
@@ -197,6 +234,9 @@ color_acento_contenido
     width: auto 
   @media (max-width: 390px)
     width: auto 
+
+.color-adicional-1
+  background-color: #EFEFEF
 
 .tarjeta.color-primario 
     background: linear-gradient(270deg, rgba(173,206,50,1) 20%, rgba(11,72,30,1) 100%)
@@ -568,6 +608,11 @@ color_acento_contenido
 
 .jumbotron-15
   background-color: #EFF5D6
+  border-radius: 20px
+
+.jumbotron-16
+  background-color: #0B481E
+  border-radius: 20px
 
 .bord_rad-tarboton
   .tarjeta--boton.color-custom:hover
@@ -609,7 +654,10 @@ color_acento_contenido
     background-color: #E2EACB!important
 
 .img-infografica.color-secundario .img-infografica__item__dot::before, .img-infografica.color-secundario .img-infografica__item__dot::after, .img-infografica.color-secundario .img-infografica-b__item__dot::before, .img-infografica.color-secundario .img-infografica-b__item__dot::after, .img-infografica-b.color-secundario .img-infografica__item__dot::before, .img-infografica-b.color-secundario .img-infografica__item__dot::after, .img-infografica-b.color-secundario .img-infografica-b__item__dot::before, .img-infografica-b.color-secundario .img-infografica-b__item__dot::after 
-  background-color: #01F6FF
+  background-color: #ADCE32
+
+.img-infografica.color-adicional-1 .img-infografica__item__dot::before, .img-infografica.color-adicional-1 .img-infografica__item__dot::after, .img-infografica.color-adicional-1 .img-infografica-b__item__dot::before, .img-infografica.color-adicional-1 .img-infografica-b__item__dot::after, .img-infografica-b.color-adicional-1 .img-infografica__item__dot::before, .img-infografica-b.color-adicional-1 .img-infografica__item__dot::after, .img-infografica-b.color-adicional-1 .img-infografica-b__item__dot::before, .img-infografica-b.color-adicional-1 .img-infografica-b__item__dot::after 
+  background-color: #EFEFEF
 
 .tarjeta-foto-hover
   position: relative

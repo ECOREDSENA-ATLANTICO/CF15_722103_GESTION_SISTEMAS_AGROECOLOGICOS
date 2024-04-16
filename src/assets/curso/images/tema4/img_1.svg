@@ -4097,7 +4097,7 @@
       <rect id="Rectángulo_331422" data-name="Rectángulo 331422" width="0.311" height="0.411" transform="translate(651.878 141.033)" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Grupo_1004855" data-name="Grupo 1004855" transform="translate(-285 -729.637)">
+  <g id="Grupo_1004842" data-name="Grupo 1004842" transform="translate(-285 -729.637)">
     <path id="Rectángulo_331427" data-name="Rectángulo 331427" d="M40,0H488a0,0,0,0,1,0,0V368.136a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V40A40,40,0,0,1,40,0Z" transform="translate(285 729.637)" fill="#ffe9e1"/>
     <path id="Rectángulo_347300" data-name="Rectángulo 347300" d="M0,0H488a0,0,0,0,1,0,0V368.136a0,0,0,0,1,0,0H40a40,40,0,0,1-40-40V0A0,0,0,0,1,0,0Z" transform="translate(285 1096.49)" fill="#ffd3c3"/>
     <path id="Rectángulo_331428" data-name="Rectángulo 331428" d="M0,0H502a40,40,0,0,1,40,40V368.136a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(773 729.637)" fill="#eff5d6"/>
@@ -10563,7 +10563,6 @@
           <circle id="Elipse_7648" data-name="Elipse 7648" cx="16.227" cy="16.227" r="16.227" fill="#ffc107"/>
         </g>
         <circle id="Elipse_7649" data-name="Elipse 7649" cx="10.457" cy="10.457" r="10.457" transform="translate(5.769 5.769)" fill="#f6f6f6" opacity="0.995"/>
-        <text id="_3" data-name="3" transform="translate(11.359 21.727)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">3</tspan></text>
       </g>
     </g>
     <g id="Grupo_1004181" data-name="Grupo 1004181" transform="translate(476 -4881.529)" style="isolation: isolate">
@@ -10572,7 +10571,6 @@
           <circle id="Elipse_7648-2" data-name="Elipse 7648" cx="16.227" cy="16.227" r="16.227" fill="#ffc107"/>
         </g>
         <circle id="Elipse_7649-2" data-name="Elipse 7649" cx="10.457" cy="10.457" r="10.457" transform="translate(5.769 5.769)" fill="#f6f6f6" opacity="0.995"/>
-        <text id="_4" data-name="4" transform="translate(11.359 21.727)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">4</tspan></text>
       </g>
     </g>
     <g id="Grupo_1004179" data-name="Grupo 1004179" transform="translate(562 -4688.898)" style="isolation: isolate">
@@ -10581,7 +10579,6 @@
           <circle id="Elipse_7648-3" data-name="Elipse 7648" cx="16.227" cy="16.227" r="16.227" fill="#ffc107"/>
         </g>
         <circle id="Elipse_7649-3" data-name="Elipse 7649" cx="10.457" cy="10.457" r="10.457" transform="translate(5.769 5.769)" fill="#f6f6f6" opacity="0.995"/>
-        <text id="_5" data-name="5" transform="translate(11.359 21.727)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">5</tspan></text>
       </g>
     </g>
     <g id="Grupo_1004180" data-name="Grupo 1004180" transform="translate(386 -4686.654)" style="isolation: isolate">
@@ -10590,7 +10587,6 @@
           <circle id="Elipse_7648-4" data-name="Elipse 7648" cx="16.227" cy="16.227" r="16.227" fill="#ffc107"/>
         </g>
         <circle id="Elipse_7649-4" data-name="Elipse 7649" cx="10.457" cy="10.457" r="10.457" transform="translate(5.769 5.769)" fill="#f6f6f6" opacity="0.995"/>
-        <text id="_6" data-name="6" transform="translate(11.359 21.727)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">6</tspan></text>
       </g>
     </g>
     <g id="Grupo_1004178" data-name="Grupo 1004178" transform="translate(179 -4834.551)" style="isolation: isolate">
@@ -10599,7 +10595,6 @@
           <circle id="Elipse_7648-5" data-name="Elipse 7648" cx="16.227" cy="16.227" r="16.227" fill="#ffc107"/>
         </g>
         <circle id="Elipse_7649-5" data-name="Elipse 7649" cx="10.457" cy="10.457" r="10.457" transform="translate(5.769 5.769)" fill="#f6f6f6" opacity="0.995"/>
-        <text id="_2" data-name="2" transform="translate(11.359 21.727)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">2</tspan></text>
       </g>
     </g>
     <g id="Enmascarar_grupo_186" data-name="Enmascarar grupo 186" transform="translate(1144 1343.943)" clip-path="url(#clip-path-1179)">

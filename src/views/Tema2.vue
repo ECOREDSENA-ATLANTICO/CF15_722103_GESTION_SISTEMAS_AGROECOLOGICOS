@@ -7,30 +7,41 @@
         span 2
       h1 Identificación animal
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12.mb-4
+        .bloque-texto-g.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_2.png')})`, 'width': '100%', 'height':'249px'}"
+          )
+      .col-lg-9.mb-5
+        .bloque-texto-g__texto.p-4.jumbotron-14(
+          :style="{'top': '55px', 'position': 'relative', 'width':'100%'}"
+        )
+          p.mb-0 En toda explotación pecuaria, los animales han de ser identificados según su producción y cuya función es saber los rasgos, caracteres y signos de las razas implementadas categorizadas de la siguiente manera:
+
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-10
         .tarjeta.bg_grad-01.mb-3(data-aos="zoom-in-up")
           .row.justify-content-center.align-items-star
-            .col-md-6.mb-3.mb-md-0.p-5.mt-0
-              p.mb-3 
+            .col-md-6.mb-md-0.p-5.mt-0
+              p.mb-3.text-small 
                 span.text-bold Exteriorista: 
                 | basada en caracteres visibles al exterior. Estos caracteres son de tipo:
 
               ol.lista-ol
-                li 
+                li.text-small 
                   span.text-bold a. Morfológico:
                   | características regionales de los animales
-                li 
+                li.text-small 
                   span.text-bold b. Fan
-                  //- | Item lista ordenada 2
-                li 
+                li.text-small 
                   span.text-bold c. Eróptico:
                   | caracteres visibles de la piel y producciones dérmicas grosor y color (pelo, pluma, lana, pezuñas, cuernos, etc.)
-                li 
+                li.text-small 
                   span.text-bold d. Funcional:
                   | caracteres de aptitud que se aprecian a simple vista (genética) pero se manifiestan por la acción del medio ambiente por la acción de agentes (climáticos, alimenticios y patológicos)
 
-            .col-lg-6.mb-0.mb-lg-6.mt-auto(data-aos="fade-left")
+            .col-lg-6.mb-lg-6.mt-auto(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/images/tema2/img_1.svg', alt='Texto que describa la imagen')
                 
