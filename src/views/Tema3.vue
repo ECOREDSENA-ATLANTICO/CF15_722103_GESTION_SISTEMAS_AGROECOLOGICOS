@@ -82,7 +82,7 @@
                 h3.p-4.mb-0 Movilización de Ganado
                 p.p-4.mb-0 Puede ampliar algunos de los requisitos para movilización y transporte para el caso bovino en el territorio nacional, ingresando a la siguiente página web:  
               .col-md-2
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/Administrador-Paginas-Inicio.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('https://www.minagricultura.gov.co/Normatividad/Paginas/Decreto-1071-2015/CAPITULO-2-Movilizacion-de-Ganado.aspx')" target="_blank")
                   span.text-dark Abrir
                   i.text-dark.fas.fa-link
     

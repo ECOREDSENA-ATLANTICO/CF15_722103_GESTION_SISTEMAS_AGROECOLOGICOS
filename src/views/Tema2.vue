@@ -161,7 +161,7 @@
                 h3.p-4.mb-0 Sistema de identificación en bovinos.
                 p.p-4.mb-0 En la actualidad ya se realizan marcajes electrónicos por medio de implantes de microchips o collares y que debido a su alto costo son implementados en producciones intensivas el cual registra datos de producción y reproducción. Sin embargo, se puede detallar el marcaje de identificación a través del siguiente video. 
               .col-md-2
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/Administrador-Paginas-Inicio.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('https://www.youtube.com/watch?v=VU4Ek6FP3KI')" target="_blank")
                   span.text-dark Abrir
                   i.text-dark.fas.fa-link
 
