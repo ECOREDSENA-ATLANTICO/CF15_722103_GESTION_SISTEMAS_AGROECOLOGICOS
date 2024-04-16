@@ -57,7 +57,7 @@
                 p.p-4.mb-0 Igualmente, es importante que pueda profundizar a través de la web algunas características adicionales de la anatomía de las especies pecuarias, para lo cual se le invita a que descargue la siguiente información:   
                 p.p-4.mb-0 Bertucci, A. Anatomia y Fisiologia Animal. Facultad de Ciencias Agrarias.    
               .col-md-3
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/Administrador-Paginas-Inicio.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Anatomia_fisiologia_animal.pdf')" target="_blank")
                   span.text-dark Abrir
                   i.text-dark.fas.fa-link
 
@@ -243,7 +243,7 @@
               .col-md-9.mb-3.mb-sm-0
                 p.p-4.mb-0 Dentro del plan se debe generar una base de manejo y medidas preventivas a realizar con los animales enfocándose en el control, prevención y erradicación de enfermedades que puedan afectar el proceso de producción, por lo que puede tomar la guía de elaboración del plan sanitario destinada por el Instituto Colombiano Agropecuario, descargando el siguiente documento:
               .col-md-3
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/Administrador-Paginas-Inicio.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Guia_para_la_elaboracion_del_plan_sanitario.pdf')" target="_blank")
                   span.text-dark Descargar
                   i.text-dark.fas.fa-link
     
@@ -271,7 +271,7 @@
               .col-lg-7.mb-sm-0
                 p.p-4.mb-0 A continuación, se presenta una guía práctica de cómo tomar y conservar muestras de laboratorio para el análisis y diagnóstico de la enfermedad que afecta el animal:
               .col-lg-5
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/Administrador-Paginas-Inicio.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Toma_de_muestras_y_envio.pdf')" target="_blank")
                   span.text-dark Descargar
                   i.text-dark.fas.fa-link
 
