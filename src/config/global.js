@@ -164,91 +164,138 @@ export default {
   referencias: [
     {
       referencia:
-        'Brechelt, A. (2004). Manejo ecológico de plagas y enfermedades. Red de Acción en Plaguicidas y sus Alternativas para América Latina. (RAP-AL)  ',
+        'Agencia Japonesa de Cooperación Internacional. (s.f.). VI. Manejo y cría de ganado bovino.',
       link:
-        'https://webzoom.freewebs.com/rentawebscr/alonsocr2013/descargas/Manejo_Ecologico_de_Plagas_A.Bretchel.pdf',
+        'https://www.jica.go.jp/project/bolivia/3065022E0/04/pdf/4-3-1_10.pdf',
     },
     {
       referencia:
-        'Escalante, L., Linzaga, E., Escalante, E. y Carreño E. (2007). Formas de Preparar el Terreno de Siembra para Obtener Buenas Cosechas. Colegio Superior Agropecuario del Estado de Guerrero. Instituto de Investigación Científica Área de Ciencias Naturales. Universidad Autónoma de Guerrero. Revista Alternativa. 4(13).',
-      link: 'https://uniprofesoraalba.files.wordpress.com/2010/02/siembra.pdf',
-    },
-    {
-      referencia:
-        'FAO. (1991).  Guía para la manipulación de semillas forestales. Centro de Semillas Forestales de DANIDA',
-      link: 'https://www.fao.org/3/ad232s/ad232s00.htm#TOC',
-    },
-    {
-      referencia:
-        'Franco, P. (2012). Manejo integrado de recurso hídrico. Corporación Centro de Investigación en Palma de Aceite (Cenipalma), Fedepalma.',
+        'Bertucci, A. (s.f.). Anatomía y fisiología animal. Facultad de Ciencias Agrarias.',
       link:
-        'https://repositorio.fedepalma.org/bitstream/handle/123456789/107700/GM%20Manejo%20integrado%20del%20recurso%20H%C3%ADdrico.pdf?sequence=1',
+        'https://www.fca-ude.edu.uy/upload/Materiales/ANATOMIA_Y_FISIOLOGIA-0113-0003.pdf',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario. (2006). Bienestar Animal: Nuevo reto para la ganadería',
+      link:
+        'https://www.ica.gov.co/areas/pecuaria/servicios/enfermedades-animales',
+    },
+    {
+      referencia:
+        'Instituto Interamericano de Cooperación para la Agricultura (IICA). (2009). Manual de Buenas Prácticas en Explotaciones Ganaderas de Carne Bovina.',
+      link: 'https://www.biopasos.com/documentos/048.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Agricultura. (s.f.). Capítulo 2. Movilización de ganado',
+      link:
+        'https://www.minagricultura.gov.co/Normatividad/Paginas/Decreto-1071-2015/CAPITULO-2-Movilizacion-de-Ganado.aspx',
+    },
+    {
+      referencia:
+        'Salas, M. & Manteca, X. (2016). Evaluación del bienestar en animales de zoológico: indicadores basados en el animal. Centro de educación en bienestar de animales de zoológico.',
+      link: 'http://www.zawec.org/media/com_lazypdf/pdf/Ficha%20ZAWEC%204.pdf',
+    },
+    {
+      referencia:
+        'Tafur Garzón, A. & Acosta Barbosa J.M. (2006). Bienestar Animal: Nuevo reto para la ganadería. ICA.',
+      link:
+        'https://www.ica.gov.co/getattachment/79b98e64-a258-46d5-9ce1-1375a8312434/Publicacion-20.aspx',
+    },
+    {
+      referencia:
+        'Universidad de Córdoba. (s.f.). Tema 23. El manejo de los animales domésticos enfocado hacia la protección animal. Control del comportamiento, manejo y modos de contención.',
+      link:
+        'http://www.uco.es/organiza/departamentos/prod-animal/economia/aula/img/pictorex/06_07_09_TEMA_23.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Siembra',
-      significado: 'Dispersión de semillas en un terreno.',
-    },
-    {
-      termino: 'Semilla criolla:',
+      termino: 'Bacteridiano',
       significado:
-        'Aquellas semillas que han logrado adaptarse a unas determinadas condiciones del entorno,  de modo natural o por intervención antrópica.',
+        'carbunco o ántrax es una enfermedad infecciosa zoonótica, causada por una bacteria formadora de esporas.',
     },
     {
-      termino: 'Arreglo topológico',
+      termino: 'Encefalomielitis',
       significado:
-        'Se definen como la distribución de las plantas en la superficie sembrada, cantidad y disposición de las mismas en un terreno. ',
+        'es una virosis equina transmitida por moscos causando inflamación de cerebro en animales la ser zoonótica.',
     },
     {
-      termino: 'Escarificación',
+      termino: 'Enfermedad',
       significado:
-        'proceso de desgaste de la cubierta de la semilla con el fin de permitir el paso del agua y oxígeno necesarios para iniciar la germinación.',
+        'es la alteración, en su funcionamiento o en su estructura de cualquier parte del organismo animal, causada por la presencia de causas externas o internas del animal, comenzando generalmente con una modificación de la estructura orgánica, que produce una alteración de la función del respectivo órgano.',
     },
     {
-      termino: 'Surcos',
+      termino: 'Enzootica',
       significado:
-        'Distribución de las semillas en hileras, y a una distancia de dos o tres centímetros de separación.',
+        'enfermedad presente en una población en un área, granja región etc.',
     },
     {
-      termino: 'Material vegetativo',
-      significado: 'Parte de planta o planta viva destinadas a ser plantadas.',
-    },
-    {
-      termino: 'Voleo',
+      termino: 'Infección',
       significado:
-        'Las semillas son distribuidas y colocadas en forma dispersa, no alineada.',
+        'es la exposición a un agente etiológico, la cual puede ir seguida o no de enfermedad, dependiendo del grado de inmunidad del huésped, de si está bien nutrido, si está bajo condiciones de estrés, o si tiene alguna otra infección previa, que le impida hacerle frente a la nueva infección.',
     },
     {
-      termino: 'Rotación de cultivos',
+      termino: 'Inflamación',
       significado:
-        'Alternar cultivos en un mismo suelo, con el fin  de preservar los nutrientes disponibles en el suelo.',
+        'es un proceso de reacción del organismo hacia una causa irritante, la cual puede ser de origen animado o inanimado. Los animales animados pueden ser los gérmenes patógenos: bacterias o virus, parásitos, etc. Inanimados, como las sustancias químicas y los físicos. Hay síntomas de la inflamación como son: dolor, calor, enrojecimiento, hinchazón y alteración de la función del órgano afectado.',
     },
     {
-      termino: 'Calibración',
+      termino: 'Micosis',
       significado:
-        'Significa utilizar un estándar de medición, para determinar la relación entre el valor mostrado por el instrumento de medición y el valor verdadero.',
+        'enfermedad producida por hongos y afecta a cualquier especie.',
     },
     {
-      termino: 'Cronograma de siembra',
+      termino: 'Salud',
       significado:
-        'Permite establecer una guía de las temporadas del año y las condiciones de siembra en cada una, con el fin de poder establecer un alto porcentaje de crecimiento y desarrollo del cultivo.',
+        'es el estado en que se encuentra el ser vivo cuando está en completa armonía con el medio.',
+    },
+    {
+      termino: 'Tatuaje',
+      significado:
+        'método de identificación animal, este se realiza en una parte como la oreja o cola.',
+    },
+    {
+      termino: 'Zoonosis',
+      significado:
+        'son las enfermedades de los animales que se transmiten al hombre. Las más frecuentes son: Carbunco, brucelosis, encefalitis equina, anemia infecciosa equina, hidatidosis, leptospirosis, rabia, salmonelosis, sarna, tenias, toxoplasmosis, tuberculosis, etc.',
     },
   ],
   complementario: [
     {
-      tema: '1.3. Manejo de semillas y material de propagación.',
+      tema: '1. Identificación animal',
       referencia:
-        'Centro de Semillas Forestales de DANIDA. FAO (1991). Guía para la manipulación de semillas forestales ',
-      tipo: 'Libro',
-      link: 'https://www.fao.org/3/ad232s/ad232s00.htm#TOC',
+        'Aula vet. (2021, marzo 22). Terminología Anatómica - Anatomía Veterinaria. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=cZGVzjbJKgY',
     },
     {
-      tema: '1.4. Arreglos topológicos.',
+      tema: '2. Anatomía de las especies pecuarias.',
       referencia:
-        'Tips y temas agronómicos.  [Tips y Temas Agronómicos]. (2022, 7 de febrero). Densidad de plantación [Video]. Youtube',
+        'Agro tendencia. (2020, 29 de octubre). Tecnologías de identificación animal | Agro para el siglo 21. [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://youtu.be/MOYVpQWbkC0',
+      link: 'https://www.youtube.com/watch?v=oBd03GITIBM',
+    },
+    {
+      tema: '3. Anatomía de las especies pecuarias.',
+      referencia:
+        'TvAgro. (2018, 25 de septiembre). INCREÍBLES tratamientos alternativos para ANIMALES - TvAgro por Juan Gonzalo Angel. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=qCNc27m-CUk',
+    },
+    {
+      tema: '4. Tratamientos alternativos',
+      referencia:
+        'Senasa Comunica. (2017, 24 de agosto). Bienestar animal. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=eJymjFBeJNE',
+    },
+    {
+      tema: '5. Registro',
+      referencia:
+        'COASGROP HIJOS DEL CAMPO. (2021, 26 de agosto). Bioseguridad en las explotaciones pecuarias. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=zgWVX_cWMeo',
     },
   ],
   creditos: {
@@ -267,19 +314,19 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Diana Julieth Núñez Ortegón',
-        cargo: 'Experta Temática',
-        centro: 'Centro de Comercio y Servicio - Regional Tolima',
+        nombre: 'James Dubán Lozano Cuellar',
+        cargo: 'Experto Temático',
+        centro: 'Centro Agropecuario la Granja - Regional Tolima',
       },
       {
-        nombre: 'Paola Alexandra Moya Peralta',
-        cargo: 'Diseñadora instruccional',
+        nombre: 'Oscar Absalón Guevara',
+        cargo: 'Diseñador instruccional',
         centro:
-          'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+          'Centro de la Industria, la Empresa y los Servicios - Regional Santander',
       },
       {
-        nombre: 'Carolina Coca Salazar',
-        cargo: 'Asesora Metodológica',
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor Metodológico',
         centro: 'Centro de Diseño y Metrología  - Distrito Capital',
       },
       {
