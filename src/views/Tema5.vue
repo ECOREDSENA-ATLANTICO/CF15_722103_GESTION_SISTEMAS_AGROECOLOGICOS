@@ -9,7 +9,7 @@
     
     .row
       .col-md-7    
-        .cajon-b.ajuste_cajon_b.color-acento-contenido.p-3.mb-5
+        .cajon.bg_color_acento_contenido.p-3.mb-5
           p.mb-0 Los medicamentos utilizados en la producción de especies pecuarias tienen importancia en el manejo y bienestar animal, pero siempre supervisado por un veterinario y bajo los parámetros técnicos de la norma. Por eso, a continuación, se describen las familias de los medicamentos utilizados de acuerdo a su función:
             |
             br
@@ -34,14 +34,16 @@
               td Son medicamentos que producen un estado de conciencia inalterada, con supresión del dolor y sin pérdida de la capacidad sensorial. Estos se encuentran en las familias de los narcóticos (Fentanil, Meperidina, Etorfina, Metadona, Propoxifeno, Pentazocina y Butorfanol) y no narcóticos (Salicilatos, Índoles, Oxicanos, Ácidos orgánicos, Paraaminofenoles y Pirazolonas).
             tr
               th Antihistamínicos
-              td Son medicamentos que producen un estado de conciencia inalterada, con supresión del dolor y sin pérdida de la capacidad sensorial. Estos se encuentran en las familias de los narcóticos (Fentanil, Meperidina, Etorfina, Metadona, Propoxifeno, Pentazocina y Butorfanol) y no narcóticos (Salicilatos, Índoles, Oxicanos, Ácidos orgánicos, Paraaminofenoles y Pirazolonas) 
+              td Inhiben la liberación de histamina de las células y los tejidos animales y se utilizan para contrarrestar las reacciones alérgicas.
             tr
               th Antiparasitarios
               td Parásitos internos y se utilizan de acuerdo al tipo de parásito que afecten, en el caso de los antihelmínticos son sustancias que actúan contra los parásitos internos de los animales domésticos, pero hay otros que actúan controlando (Nemátodos/redondos), (cestodos o planos segmentados) y parásitos planos no segmentados (Tremátodos).
             tr
               th Antiparasitarios externos
               td Estos productos se utilizan para controlar moscas, garrapatas, nuches, son llamados insecticidas.
-   
+
+    p.mb-3 Para cada uno de los medicamentos se recomienda leer y atender la contraindicación y la dosificación por que pueden producir daños irreversibles o hasta la muerte en los animales.
+
     .row.mb-4
       .col-auto
         img(src='@/assets/curso/images/tema5/img_7.svg' , alt='')

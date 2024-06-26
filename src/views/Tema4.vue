@@ -17,7 +17,7 @@
         .bloque-texto-g__texto.p-4.jumbotron-15(
           :style="{'top': '55px', 'position': 'relative', 'width':'100%'}"
         )
-          p.mb-0 De acuerdo con la composición, disposición, ubicación y relación topográfica de los diferentes órganos que componen el organismo de los animales es importante tener en cuenta la organización estructural de los seres vivos y en esencia a los puntos de referencia, veamos:
+          p.mb-0 De acuerdo con la composición, disposición, ubicación y relación topográfica de los diferentes órganos que componen el organismo de los animales es importante tener en cuenta la organización estructural de los seres vivos y en esencia a los puntos de referencia, a continuación:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-10
@@ -136,7 +136,7 @@
 
             .row(titulo="Leptospirosis")
               .col-12
-                p.mb-0 producida por la leptospira, de la cual existen varias especies, que atacan a los animales y al hombre. Se presenta en equinos, bovinos, ovinos, caprinos y porcinos donde suele presentarse en todo el país y es endémica. <br> Los animales contaminados eliminan permanentemente el virus por la orina y si se contamina el agua de charcas permanece viva y puede ser ingerida por otros animales, atravesando la pared intestinal y llegando a la sangre. <br> Fiebre aftosa o glosopeda Se caracteriza por la presencia de estomatitis, problemas vesiculares en pezuñas y glándula mamaria, por ser de alta morbilidad. Es causada por virus en especies como bovinos, porcinos, ovinos y caprinos. Se presenta en todo el país en forma endémica, epidémica y esporádica. Cuando el virus penetra, presentando fiebre, por la presencia del virus en la sangre, (viremia), llegando a todo el organismo, afectando el miocardio, inflamación y degeneración que puede ocasionar la muerte. Brucelosis o aborto infeccioso. <br>La produce la Brucella, que es una enfermedad Zoonótica, de la cual hay varias especies: B. abortus, B. Bovis, B. melitensis, y B. suis. Se presenta en todas las especies, es endémica. Son portadores, los animales sanos se contaminan por vía oral y la sintomatología es fiebre e inflamación en algunas partes en la especie equina (mal de la cruz)
+                p.mb-0 producida por la leptospira, de la cual existen varias especies, que atacan a los animales y al hombre. Se presenta en equinos, bovinos, ovinos, caprinos y porcinos donde suele presentarse en todo el país y es endémica. <br> Los animales contaminados eliminan permanentemente el virus por la orina y si se contamina el agua de charcas, permanece viva y puede ser ingerida por otros animales, atravesando la pared intestinal y llegando a la sangre. <br> Fiebre aftosa o glosopeda Se caracteriza por la presencia de estomatitis, problemas vesiculares en pezuñas y glándula mamaria, por ser de alta morbilidad. Es causada por virus en especies como bovinos, porcinos, ovinos y caprinos. Se presenta en todo el país en forma endémica, epidémica y esporádica. Cuando el virus penetra, presentando fiebre, por la presencia del virus en la sangre, (viremia), llegando a todo el organismo, afectando el miocardio, inflamación y degeneración que puede ocasionar la muerte. Brucelosis o aborto infeccioso. <br>La produce la Brucella, que es una enfermedad Zoonótica, de la cual hay varias especies: B. abortus, B. Bovis, B. melitensis, y B. suis. Se presenta en todas las especies, es endémica. Son portadores, los animales sanos se contaminan por vía oral y la sintomatología es fiebre e inflamación en algunas partes en la especie equina (mal de la cruz)
 
             .row(titulo="Salmonelosis")
               .col-12
@@ -198,11 +198,11 @@
 
             .row(titulo="Mycoplasma Mycoplasma hyopneumoniae")
               .col-12
-                p.mb-0 es una bacteria que causa enfermedad de neumonía enzoótica porcina y es altamente contagiosa y crónica que afecta el sistema respiratorio <br>Peste porcina Es una enfermedad viral del Pestivirus de la familia Flaviviridae de los cerdos que es altamente contagiosa, causando fiebre, anorexia, letargia, hemorragias y cianosis en la piel, conjuntivitis, estreñimiento transitorio seguido de diarrea, vómitos ocasionales, disnea, tos, ataxia, convulsiones. Mortalidad Parvovirosis Producido por un virus de la especie Parvoviridae de los cerdos, causa problemas reproductivos infección embrionaria y fetal y muerte.
+                p.mb-0 es una bacteria que causa enfermedad de neumonía enzoótica porcina y es altamente contagiosa y crónica que afecta el sistema respiratorio. <br>Peste porcina es una enfermedad viral del Pestivirus de la familia Flaviviridae de los cerdos que es altamente contagiosa, causando fiebre, anorexia, letargia, hemorragias y cianosis en la piel, conjuntivitis, estreñimiento transitorio seguido de diarrea, vómitos ocasionales, disnea, tos, ataxia, convulsiones. Mortalidad Parvovirosis producido por un virus de la especie Parvoviridae de los cerdos, causa problemas reproductivos infección embrionaria y fetal y muerte.
 
             .row(titulo="Influenza aviar")
               .col-12
-                p.mb-0 enfermedad viral que afecta a las aves Familia Orthomyxoviridae respiratorio severo, con lagrimeo ocular excesivo y sinusitis, cianosis de las crestas, barbillas y lo más importante que es una enfermedad zoonótica. <br> Newcastle Infección viral altamente contagiosa (virus Paramyxoviridae) afecta a todas las aves. Los signos respiratorios son jadeo, tos, estornudos y ruidos al respirar. Igual presenta signos nerviosos: parálisis de las alas y las patas, cuello torcido, desplazamiento en círculos, espasmos y parálisis.
+                p.mb-0 enfermedad viral que afecta a las aves familia Orthomyxoviridae respiratorio severo, con lagrimeo ocular excesivo y sinusitis, cianosis de las crestas, barbillas y lo más importante que es una enfermedad zoonótica. <br> Newcastle infección viral altamente contagiosa (virus Paramyxoviridae) afecta a todas las aves. Los signos respiratorios son jadeo, tos, estornudos y ruidos al respirar. Igual presenta signos nerviosos: parálisis de las alas y las patas, cuello torcido, desplazamiento en círculos, espasmos y parálisis.
                 
             .row(titulo="Paratuberculosis o enfermedad de Jhones")
               .col-12
@@ -210,7 +210,7 @@
                 
             .row(titulo="Marek Viral herpes alfa neoplásica")
               .col-12
-                p.mb-0 sumamente contagiosas de las gallinas. La sintomatología nerviosa se caracteriza en parálisis flácida generalmente unilateral (patas o alas) diarrea y problemas de cuello. <br>Gumboro Bursitis infecciosa, enfermedad altamente contagiosa de pollos jóvenes causada por el virus (Avibirnavirus) causa fiebre, depresión, plumas erizadas, prolapso de cloaca y deshidratación. <br> Encefalitis equina Enfermedad en equinos y mulares (Alphavirus) que causa problemas febriles y síntoma logia neurológica.
+                p.mb-0 sumamente contagiosas de las gallinas. La sintomatología nerviosa se caracteriza en parálisis flácida generalmente unilateral (patas o alas) diarrea y problemas de cuello. <br>Gumboro Bursitis infecciosa, enfermedad altamente contagiosa de pollos jóvenes causada por el virus (Avibirnavirus) causa fiebre, depresión, plumas erizadas, prolapso de cloaca y deshidratación. <br> Encefalitis equina enfermedad en equinos y mulares (Alphavirus) que causa problemas febriles y síntoma logia neurológica.
                 
         .col-lg-6
           figure(data-aos="zoom-in")

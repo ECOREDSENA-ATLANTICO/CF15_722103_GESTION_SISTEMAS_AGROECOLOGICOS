@@ -106,7 +106,7 @@
     
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12.mb-3
-        p Los indicadores de bienestar son todas las características observables o medibles que se relacionan con el aspecto de los animales de los cuales se puede nombrar la condición corporal, expresión facial y postura. Podremos el indicador en aspectos ambientales los cuales no se pueden medir en los animales sino en el entorno de la producción y un ejemplo son los diseños de las instalaciones con provisiones del agua y el otro indicador en la característica del animal sobre su apariencia, salud y las constantes fisiológicas. Detallemos a continuación los indicadores:
+        p Los indicadores de bienestar son todas las características observables o medibles que se relacionan con el aspecto de los animales de los cuales se puede nombrar la condición corporal, expresión facial y postura. Podemos notar el indicador en aspectos ambientales los cuales no se pueden medir en los animales sino en el entorno de la producción y un ejemplo son los diseños de las instalaciones con provisiones del agua y el otro indicador en la característica del animal sobre su apariencia, salud y las constantes fisiológicas. Detallemos a continuación los indicadores:
        
     .row.justify-content-center.align-items-center
       .col-md-10

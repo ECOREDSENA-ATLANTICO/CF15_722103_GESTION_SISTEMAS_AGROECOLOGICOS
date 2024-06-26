@@ -38,9 +38,7 @@
                 img.img-t.m-auto(src='@/assets/curso/images/tema6/img_3.svg', alt='')
               .tarjeta.tarjeta.color_secundario_tarjetas.shadow-sm
                 .p-4
-                  p.text-small De igual manera, 
-                    span.text-bold la acupuntura 
-                    | es un método que se realiza mediante la utilización de agujas beneficiosas y cuyo objetivo es la postura de agujas en el sitio de la dolencia.
+                  p.text-small Otra práctica muy utilizada en producciones intensivas es la musicoterapia, esta busca ocultar sonidos extraños con el fin de evitar estrés por parte de los animales en producción. En las grandes empresas es utilizada para ganaderías de leche y aves de corral.
         
         .col-lg-12
           .tarjeta-avatar-b.mb-4
@@ -58,9 +56,7 @@
                 img.img-t.m-auto(src='@/assets/curso/images/tema6/img_5.svg', alt='')
               .tarjeta.tarjeta.color_secundario_tarjetas.shadow-sm
                 .p-4
-                  p.text-small De igual manera, 
-                    span.text-bold la acupuntura 
-                    | es un método que se realiza mediante la utilización de agujas beneficiosas y cuyo objetivo es la postura de agujas en el sitio de la dolencia.
+                  p.text-small Finalmente, la cromoterapia es una técnica de observación de colores el cual busca una armonía del animal.
         
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-3

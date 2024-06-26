@@ -27,7 +27,7 @@
 
     .row.justify-content-center.align-items-center.mb-0.mt-3
       .col-md-10
-        .cajon-b.ajuste_cajon_b_3.color-acento-contenido.p-3.mb-1
+        .cajon.bg_color_acento_contenido.p-3.mb-1
             p.mb-0 El transporte o desplazamiento de animales se debe realizar de la manera más calmada posible y sin ocasionar ningún daño o dolor minimizando los procesos de estrés haciendo la guianza dentro de la planta o hacia otros lugares. Si es necesario un medio de transporte debe realizarse según los parámetros técnicos establecidos en los cuales se incluyen las actividades de carga, descarga, transbordo y descenso.
               |
               br

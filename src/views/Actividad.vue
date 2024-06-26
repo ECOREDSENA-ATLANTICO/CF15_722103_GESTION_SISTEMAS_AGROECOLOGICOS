@@ -10,7 +10,7 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Manejo en la producción pecuaria
+          h2 Labores de manejo en la producción pecuaria
         p.mb-4 Reforzar los elementos conceptuales y operativos de Producción pecuaria agroecológica.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

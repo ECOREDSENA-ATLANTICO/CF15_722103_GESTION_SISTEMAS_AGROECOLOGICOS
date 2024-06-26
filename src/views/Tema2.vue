@@ -85,7 +85,7 @@
                   | Chapeta u orejera, microchips o collares. 
                 li 
                   i.fas.fa-check.txt--green 
-                  | Señal Incisión o mutilación de la oreja 
+                  | Señal incisión o mutilación de la oreja 
                 li 
                   i.fas.fa-check.txt--green 
                   | Marca signo que permite identificar de manera colectiva o individual, generado con hierro caliente, nitrógeno frío, ácidos o tinta. 
