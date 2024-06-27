@@ -20,28 +20,32 @@
         ImagenInfografica.color-adicional-1
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/images/tema4/img_1.svg', alt='')
+              img(src='@/assets/curso/images/tema4/img_1.png', alt='')
+
+          .tarjeta.color-acento-botones.p-3.text-bold(x="56.2%" y="17.7%" numero="1")
+            .h5.mb-2 Craneal o anterior
+            p Referencia hacia la cabeza.
+          
+          .tarjeta.color-acento-botones.p-3.text-bold(x="30.6%" y="22.5%" numero="2")
+            .h5.mb-2 Caudal o posterior
+            p Dirección de la cola.
 
           .tarjeta.color-acento-botones.p-3.text-bold(x="15.6%" y="15.6%" numero="3")
             .h5.mb-2 Plano medio o anteroposterior
             p Plano imaginario que corta el cuerpo de la cabeza a la cola en dos partes iguales de derecha a izquierda.
 
-          .tarjeta.color-acento-botones.p-3.text-bold(x="26.6%" y="30.2%" numero="2")
-            .h5.mb-2 Caudal o posterior
-            p Dirección de la cola.
+          .tarjeta.color-acento-botones.p-3.text-bold(x="63.5%" y="50.9%" numero="4")
+            .h5.mb-2 Plano sagital
+            p Es todo plano paralelo al medio del animal.
 
-          .tarjeta.color-acento-botones.p-3.text-bold(x="55.4%" y="23.7%" numero="4")
-            .h5.mb-2 Caudal o posterior
-            p Dirección de la cola.
+          .tarjeta.color-acento-botones.p-3.text-bold(x="41.6%" y="15.5%" numero="5")
+            .h5.mb-2 Plano transverso o transversal
+            p Divide al cuerpo en dos partes, craneal y caudal.
 
-          .tarjeta.color-acento-botones.p-3.text-bold(x="46.7%" y="50.44%" numero="6")
-            .h5.mb-2 Caudal o posterior
-            p Dirección de la cola.
-
-          .tarjeta.color-acento-botones.p-3.text-bold(x="63.7%" y="49.9%" numero="5")
-            .h5.mb-2 Caudal o posterior
-            p Dirección de la cola.
-
+          .tarjeta.color-acento-botones.p-3.text-bold(x="43.3%" y="46.8%" numero="6")
+            .h5.mb-2 Plano frontal
+            p Este divide el cuerpo en dos partes desiguales: 	dorsal o superior y ventral o inferior.
+          
     .row.justify-content-center.align-items-center.mb-0
       .col-md-10
         .tarjeta-avatar-b.mb-3
