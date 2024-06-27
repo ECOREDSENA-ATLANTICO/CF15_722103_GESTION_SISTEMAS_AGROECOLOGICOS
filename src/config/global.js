@@ -172,7 +172,7 @@ export default {
       referencia:
         'Bertucci, A. (s.f.). Anatomía y fisiología animal. Facultad de Ciencias Agrarias.',
       link:
-        'https://www.fca-ude.edu.uy/upload/Materiales/ANATOMIA_Y_FISIOLOGIA-0113-0003.pdf',
+        'https://es.slideshare.net/slideshow/anatoma-y-fisiologa-animal-autor-agustn-bertuccipdf/251840256',
     },
     {
       referencia:

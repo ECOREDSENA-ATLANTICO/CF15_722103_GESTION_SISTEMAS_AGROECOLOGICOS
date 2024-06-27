@@ -36,7 +36,7 @@
               th Antihistamínicos
               td Inhiben la liberación de histamina de las células y los tejidos animales y se utilizan para contrarrestar las reacciones alérgicas.
             tr
-              th Antiparasitarios
+              th Antiparasitarios internos
               td Parásitos internos y se utilizan de acuerdo al tipo de parásito que afecten, en el caso de los antihelmínticos son sustancias que actúan contra los parásitos internos de los animales domésticos, pero hay otros que actúan controlando (Nemátodos/redondos), (cestodos o planos segmentados) y parásitos planos no segmentados (Tremátodos).
             tr
               th Antiparasitarios externos
