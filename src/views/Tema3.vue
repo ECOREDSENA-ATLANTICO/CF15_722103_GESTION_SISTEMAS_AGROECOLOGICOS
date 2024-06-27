@@ -23,7 +23,7 @@
           span  Conducción de animales  
               
         figure
-          img(src='@/assets/curso/images/tema3/img_2.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/images/tema3/img_2.png', alt='Muestra la conducción de animales según los parámetros técnicos establecidos, donde el desplazamiento de los animales no ocasioné ningún daño o dolor minimizando .')
 
     .row.justify-content-center.align-items-center.mb-0.mt-3
       .col-md-10
@@ -97,7 +97,7 @@
             
             .col-lg-6.mb-0.mb-lg-6.mt-auto(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/images/tema3/img_8.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/images/tema3/img_8.svg', alt='')
     
 
 
@@ -106,7 +106,7 @@
         .row
           .col-md-7
             figure
-              img(src='@/assets/curso/images/tema3/img_4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema3/img_4.png', alt='')
           .col-md-5.mb-4.mb-md-0
             p Es la manera más adecuada para movilizar cualquier animal de producción dado que es el espacio que tiene para moverse y si un operario lo interrumpe tiende a moverse y si sale de ahí de inmediato se detiene. Este espacio depende de la docilidad del animal y el ángulo de visibilidad hacia la persona que se aproxima, por lo que esta zona de huida se agranda cuando se viene de frente y se minimiza cuando está dentro de un brete de manejo donde cualquier circunstancia de excitación provocará que esta zona aumente de tamaño. 
             p Una persona debe estar lo suficientemente cerca del ganado para lograr que éste camine, pero no demasiado dado que puede provocar el pánico y huida. Finalmente tenga en cuenta que si es un animal manso puede realizar el manejo con una cuerda o bozal pero jamás usar caninos. 
@@ -115,7 +115,7 @@
         .row
           .col-md-7.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/images/tema3/img_5.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema3/img_5.png', alt='')
           .col-md-5
             p Este es un punto determinante pues la persona ubicada casi atrás genera que el animal camine, pero si se ubica hacia delante el animal retrocederá. En el caso de los bovinos y equinos no se recomienda hacerse detrás en el punto ciego pues la reacción es la de patear y es mejor manejarlos en grupo que individual.
             p Otro principio es que los animales de pastoreo, solos o en grupo, se moverán hacia adelante cuando un vaquero pasa rápidamente su punto de balance de la cruz en dirección contraria a la deseada para el movimiento. Los movimientos descritos en zona del trabajador sirven para inducir al ganado a entrar a una manga reduciendo notablemente o eliminando el uso de la picana eléctrica.
@@ -128,7 +128,7 @@
             span  Zona de fuga y punto de balance
                 
           figure
-            img(src='@/assets/curso/images/tema3/img_6.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/images/tema3/img_6.svg', alt='Muestra el componente formativo el punto de balance a 45 grados, es la zona de movimiento del trabajador y la orilla de zona de fuga a 90 grados.')
   
   </template>
 

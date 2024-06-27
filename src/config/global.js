@@ -178,7 +178,7 @@ export default {
       referencia:
         'Instituto Colombiano Agropecuario. (2006). Bienestar Animal: Nuevo reto para la ganadería',
       link:
-        'https://www.ica.gov.co/areas/pecuaria/servicios/enfermedades-animales',
+        'https://www.ica.gov.co/getattachment/79b98e64-a258-46d5-9ce1-1375a8312434/publicacion-20.aspx',
     },
     {
       referencia:
@@ -206,7 +206,7 @@ export default {
       referencia:
         'Universidad de Córdoba. (s.f.). Tema 23. El manejo de los animales domésticos enfocado hacia la protección animal. Control del comportamiento, manejo y modos de contención.',
       link:
-        'http://www.uco.es/organiza/departamentos/prod-animal/economia/aula/img/pictorex/06_07_09_TEMA_23.pdf',
+        'https://www.studocu.com/co/document/servicio-nacional-de-aprendizaje/gestion-de-empresas-agropecuarias/manejondenlosnanimalesndomesticos-6861f73ef6f0eca/31220591',
     },
   ],
   glosario: [

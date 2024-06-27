@@ -22,7 +22,7 @@
 
             .col-md-7
               figure
-                img(src='@/assets/curso/images/tema1/img_1.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/images/tema1/img_1.png', alt='')
 
           .row.justify-content-center.align-items-star.p-3
             .col-md-5.mb-4.mb-md-0
@@ -32,7 +32,7 @@
 
             .col-md-7
               figure
-                img(src='@/assets/curso/images/tema1/img_2.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/images/tema1/img_2.png', alt='')
 
           .row.justify-content-center.align-items-star.p-3
             .col-md-5.mb-4.mb-md-0
@@ -41,7 +41,7 @@
 
             .col-md-7
               figure
-                img(src='@/assets/curso/images/tema1/img_3.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/images/tema1/img_3.png', alt='')
                 
           .row.justify-content-center.align-items-star.p-3
             .col-md-5.mb-4.mb-md-0
@@ -50,7 +50,7 @@
 
             .col-md-7
               figure
-                img(src='@/assets/curso/images/tema1/img_4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/images/tema1/img_4.png', alt='')
   //- Separador
 
 </template>

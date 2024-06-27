@@ -6,25 +6,21 @@
       .titulo-principal__numero 
         span 4
       h1 Anatomía de las especies pecuarias
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.mb-4
-        .bloque-texto-g.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/images/tema4/img_23.png')})`, 'width': '100%', 'height':'249px'}"
-          )
-      .col-lg-9.mb-5
-        .bloque-texto-g__texto.p-4.jumbotron-15(
-          :style="{'top': '55px', 'position': 'relative', 'width':'100%'}"
-        )
-          p.mb-0 De acuerdo con la composición, disposición, ubicación y relación topográfica de los diferentes órganos que componen el organismo de los animales es importante tener en cuenta la organización estructural de los seres vivos y en esencia a los puntos de referencia, a continuación:
+   
+    .row.justify-content-center.align-items-center.mb-0.mt-3
+      .col-md-12.mb-4
+        figure
+        img(src='@/assets/curso/images/tema4/img_23.png', alt='')
+      .col-md-10
+        .jumbotron-6.p-3.mb-5
+            p.mb-0 De acuerdo con la composición, disposición, ubicación y relación topográfica de los diferentes órganos que componen el organismo de los animales es importante tener en cuenta la organización estructural de los seres vivos y en esencia a los puntos de referencia, a continuación:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-10
         ImagenInfografica.color-adicional-1
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/images/tema4/img_1.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema4/img_1.svg', alt='')
 
           .tarjeta.color-acento-botones.p-3.text-bold(x="15.6%" y="15.6%" numero="3")
             .h5.mb-2 Plano medio o anteroposterior
@@ -73,7 +69,7 @@
       
           .col-lg-11.mb-0.mb-lg-11.mt-auto.m-auto(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/images/tema4/img_3.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema4/img_3.svg', alt='')
         
         .col-md-8
           .row
@@ -295,16 +291,16 @@
           span  Sujeción en animales de producción
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema4/img_19.svg', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema4/img_19.svg', alt='Muestra la enumeración de las 4 técnicas de sujeción en animales de producción: 1. Método de las tres lazadas. 2. Método con pial.3. Método de la X.4. Método de derribar terneros.')
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema4/img_20.svg', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema4/img_20.svg', alt='Muestra la enumeración de las 4 técnicas de sujeción en animales de producción: 1. Método de las tres lazadas. 2. Método con pial.3. Método de la X.4. Método de derribar terneros.')
       .col-lg-3(data-aos="fade-left")
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema4/img_21.svg', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema4/img_21.svg', alt='Muestra la enumeración de las 4 técnicas de sujeción en animales de producción: 1. Método de las tres lazadas. 2. Método con pial.3. Método de la X.4. Método de derribar terneros.')
       .col-lg-3(data-aos="fade-left")
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema4/img_22.svg', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema4/img_22.svg', alt='Muestra la enumeración de las 4 técnicas de sujeción en animales de producción: 1. Método de las tres lazadas. 2. Método con pial.3. Método de la X.4. Método de derribar terneros.')
 
   </template>
 

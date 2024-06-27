@@ -116,7 +116,7 @@
             span  Indicadores de bienestar animal
                 
           figure
-            img(src='@/assets/curso/images/tema7/img_6.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/images/tema7/img_6.svg', alt='Muestra como se identifican los cuatro indicadores fundamentales para el bienestar animal: 1. Alimentación: ausencia de hambre o de salud. 2. Salud: ausencia de enfermedades, lesiones y dolor.3. Alojamiento: confort de descanso, térmico y facultad de movimiento. 4. Comportamiento: expresión de comportamiento social, expresión de otro comportamiento y ausencia de temor.')
 
     Separador
 
@@ -131,11 +131,11 @@
 
       .col-md-4.mb-5
         figure
-            img(src='@/assets/curso/images/tema7/img_4.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/images/tema7/img_4.png', alt='')
 
       .col-md-10.mb-5   
           figure
-            img(src='@/assets/curso/images/tema7/img_3.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/images/tema7/img_3.svg', alt='Los sistemas de Análisis de Peligros y Control de Puntos Críticos (HACCP): Hazard Analysis Critical Control Ponits Son una herramienta que garantiza la seguridad de los alimentos enfocados a la salud animal.')
 
       p  Los sistemas de Análisis de Peligros y Control de Puntos Críticos (HACCP) son una herramienta que garantiza la seguridad de los alimentos dado que se puede enfocar en la preservación de la salud animal bajo principios de las buenas prácticas de producción. El reconocimiento, análisis de los peligros e identificación de los puntos críticos para implementar un sistema de vigilancia y monitoreo de todos los sistemas de producción hace parte primordial del manejo de la producción pecuaria.
       p  En el caso de la porcicultura cabe decir que se centra en los procedimientos de higiene de personal al ingresar a las plantas y evitar que cualquier microorganismo entre previniendo cualquier infestación de enfermedades infecciosas.

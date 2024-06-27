@@ -43,7 +43,7 @@
 
             .col-lg-6.mb-lg-6.mt-auto(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/images/tema2/img_1.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/images/tema2/img_1.svg', alt='')
                 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-5
@@ -56,7 +56,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/images/tema2/img_6.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/images/tema2/img_6.svg', alt='')
         
       .col-lg-5
         .tarjeta.bg_grad-01.p-3.mb-3(data-aos="zoom-in-up")
@@ -68,7 +68,7 @@
 
             .col-md-8
               figure
-                img(src='@/assets/curso/images/tema2/img_7.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/images/tema2/img_7.svg', alt='')
                 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-10
@@ -93,7 +93,7 @@
             
             .col-lg-6.mb-0.mb-lg-6.mt-auto(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/images/tema2/img_8.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/images/tema2/img_8.svg', alt='')
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10

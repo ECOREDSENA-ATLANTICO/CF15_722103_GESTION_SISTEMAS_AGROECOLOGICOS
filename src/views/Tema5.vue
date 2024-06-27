@@ -64,7 +64,7 @@
       .row.justify-content-center.align-items-star.p-3
         .col-md-6
           figure
-            img(src='@/assets/curso/images/tema5/img_3.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/images/tema5/img_3.png', alt='')
         .col-md-6.mb-4.mb-md-0
           p.mb-4 Otros elementos básicos son los de realizar labores de mecánica, labranza y sujeción entendiendo que todos estos equipos e instrumentales estén en buen estado, desinfectados, limpios y que sean los apropiados para cada caso. 
           p.mb-4 Finalmente, los insumos dependen del área de alimentación en los que se debe tener por fuente de proteína u otro (cereales, soya) o los de otra área como la de producción agrícola en la cual tendremos como insumo los fertilizantes. Así mismo, habrá otras áreas como producción de acuerdo con el tipo de animal. Es importante que los productores de acuerdo con la proyección y la utilidad determinen la cantidad y utilidad del insumo.

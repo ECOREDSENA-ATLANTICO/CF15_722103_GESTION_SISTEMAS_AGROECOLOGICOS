@@ -63,7 +63,7 @@
           h5 Figura 4.
           span  Tratamientos alternativos de producción pecuaria 
         figure
-          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_6.svg', alt='')
+          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_6.svg', alt='Muestra los tratamientos  alternativos que conllevan a una producción pecuaria optima, utilizada para animales felices y mas sanos son: homeopatía, acupuntura, musicoterapia y cromoterapia.')
           figcaption 
             p
               span.text-bold Nota. 
