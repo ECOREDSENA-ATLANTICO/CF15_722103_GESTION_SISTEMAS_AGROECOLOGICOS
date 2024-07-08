@@ -8,10 +8,10 @@
       h1 Registros
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-lg-6
+      .col-lg-6.mb-3
         p Son un documento que determina una actividad específica y propia de una empresa o establecimiento el registro, en cual se documenta en un archivo la trazabilidad del manejo animal. Este debe ir con unos parámetros de información de importancia para la empresa que se mencionan a continuación: 
 
-        .col-md-10
+        .col-lg-10.mb-3
           .tarjeta.tarjeta--gris.p-4
             ul.lista-ul.mb-0
               li
@@ -47,7 +47,7 @@
           img.img-t(src='@/assets/curso/images/tema7/img_1.png', alt='')
 
 
-    .row.align-items-center.mb-3
+    .row.align-items-center
       .col-lg-6(data-aos="fade-right")
         p El manejo de registros es una herramienta útil e indispensable que genera en la empresa ganadera un soporte financiero y rentable, además de crear un archivo que permite ver cómo avanzan las labores económicas y productivas.
         .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-4.mb-lg-0

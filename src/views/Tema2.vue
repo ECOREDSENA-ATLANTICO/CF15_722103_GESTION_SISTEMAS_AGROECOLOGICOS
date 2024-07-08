@@ -23,7 +23,7 @@
       .col-lg-10
         .tarjeta.bg_grad-01.mb-3(data-aos="zoom-in-up")
           .row.justify-content-center.align-items-star
-            .col-md-6.mb-md-0.p-5.mt-0
+            .col-lg-6.mb-md-0.p-5.mt-0
               p.mb-3.text-small 
                 span.text-bold Exteriorista: 
                 | basada en caracteres visibles al exterior. Estos caracteres son de tipo:
@@ -74,7 +74,7 @@
       .col-lg-10
         .tarjeta.bg_grad-01.mb-5(data-aos="zoom-in-up")
           .row.justify-content-center.align-items-star
-            .col-md-6.mb-3.mb-md-0.p-5
+            .col-lg-6.mb-3.mb-md-0.p-5
               p.mb-3 
                 span.text-bold Artificial: 
                 | es la más utilizada y sobre la cual profundizamos dado que es una identificación que se realiza por medio de:
@@ -104,7 +104,7 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 De acuerdo a lo anterior podemos clasificar las marcas con una señal para identificación pecuaria de forma grupal o individual.
 
-    SlyderF(columnas="col-lg-6 col-xl-3").mb-5
+    SlyderF(columnas="col-md-6 col-xl-3").mb-5
       .tarjeta.jumbotron 
         .row.justify-content-center
           .col-12
@@ -157,14 +157,15 @@
             img.img-t.m-auto(src='@/assets/curso/images/tema2/img_10.svg', alt='')
           .tarjeta.color-primario.shadow-sm
             .row.justify-content-center.align-items-center.mb-0.p-md-3
-              .col-md-10.mb-3.mb-sm-0
+              .col-lg-10.mb-3.mb-sm-0
                 h3.p-4.mb-0 Sistema de identificación en bovinos.
                 p.p-4.mb-0 En la actualidad ya se realizan marcajes electrónicos por medio de implantes de microchips o collares y que debido a su alto costo son implementados en producciones intensivas el cual registra datos de producción y reproducción. Sin embargo, se puede detallar el marcaje de identificación a través del siguiente video. 
-              .col-md-2
+              .col-lg-2.p-3
                 a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=VU4Ek6FP3KI')" target="_blank")
                   span.text-dark Abrir
                   i.text-dark.fas.fa-link
-
+    
+    
 </template>
 
 <script>

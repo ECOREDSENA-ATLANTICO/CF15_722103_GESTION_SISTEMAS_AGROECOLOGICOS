@@ -53,10 +53,10 @@
             img.img-t.m-auto(src='@/assets/curso/images/tema4/img_2.svg', alt='')
           .tarjeta.color-primario.shadow-sm
             .row.justify-content-center.align-items-center.mb-0
-              .col-md-9.mb-3.mb-sm-0
+              .col-lg-9.mb-3.mb-sm-0
                 p.p-4.mb-0 Igualmente, es importante que pueda profundizar a través de la web algunas características adicionales de la anatomía de las especies pecuarias, para lo cual se le invita a que descargue la siguiente información:   
                 p.p-4.mb-0 Bertucci, A. Anatomia y Fisiologia Animal. Facultad de Ciencias Agrarias.    
-              .col-md-3
+              .col-lg-3.p-3
                 a.boton.color-acento-botones(:href="obtenerLink('downloads/Anatomia_fisiologia_animal.pdf')" target="_blank")
                   span.text-dark Abrir
                   i.text-dark.fas.fa-link
@@ -68,7 +68,7 @@
 
     .row.justify-content-center.align-items-center.mb-0
       .tarjeta.row.mb-3
-        .col-md-4.color_acento_contenido
+        .col-md-4.color_acento_contenido.mb-3
           p.p-4 Las enfermedades en las especies pecuarias se determinan de acuerdo con cada una de las especies. Inicialmente se deben reconocer los siguientes tipos de enfermedades:
       
           .col-lg-11.mb-0.mb-lg-11.mt-auto.m-auto(data-aos="fade-left")
@@ -119,7 +119,7 @@
                     h4 No infecciosas 
                     p.text-small Consecuencias de lesiones, desnutrición, anormalidades genéticas entre otras.
     
-    .bg_16.p-4.p-lg-5.mb-lg-0
+    .bg_16.p-4.p-lg-5.mb-lg-0.mb-3
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-6(data-aos="fade-left")
           p Una vez se han reconocido los tipos se pueden describir las enfermedades más comunes de las especies pecuarias. Revisa la descripción de cada una: 
@@ -127,7 +127,7 @@
           img.m-auto(src='@/assets/curso/images/tema4/img_9.svg', alt='') 
      
     .bg--img_03
-      .row.justify-content-center.mb-1
+      .row.justify-content-center.mb-3
         .col-lg-6
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Estomatitis vesicular:")
@@ -153,17 +153,17 @@
             .row(titulo="Tuberculosis")
               .col-12
                 p.mb-0 es conocida como Micobacterium tuberculoso o Bacilo de Koch. Es de presentación en zonas de clima frío, se disemina en instrumentos o por el aire y su sintomatología es respiratoria. En general una cantidad de animales puede verse gravemente afectada en pocos meses de infección, mientras que otros animales tardan varios años en desarrollar signos clínicos. La bacteria también puede permanecer latente en el huésped sin causar enfermedad durante largos periodos.
-                
+              
         .col-lg-6
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/images/tema4/img_11.png", alt="alt").img400.m-auto
         
-        //- Segunda parte
-        .col-lg-6
+      .row.justify-content-center.mb-3
+        .col-lg-6.order-2.order-lg-1
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/images/tema4/img_12.svg", alt="alt").img400.m-auto
             
-        .col-lg-6
+        .col-lg-6.order-1.order-lg-2
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Tétanos:")
               .col-12
@@ -185,7 +185,7 @@
               .col-12
                 p.mb-0 es una enfermedad producida por el Toxoplasma gondii, ataca a todas las especies animales y al hombre. Se puede propagar por vía uterina, oral o por contacto con animales enfermos. Las palomas son portadoras sanas del parásito. La sintomatología enflaquecimiento progresivo, fiebre, diarrea sanguinolenta, hipertrofia de ganglios linfáticos, disnea y encefalitis, trastornos del sistema nervioso central, aborto, partos prematuros y trastornos de la locomoción.
 
-        //- tercera parte
+      .row.justify-content-center.mb-1
         .col-lg-6
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Distomatosis hepática Conocida como Mariposa del hígado")
@@ -240,9 +240,9 @@
             img.img-t.m-auto(src='@/assets/curso/images/tema4/img_15.svg', alt='')
           .tarjeta.color-primario.shadow-sm.mt-2
             .row.justify-content-center.align-items-center.mb-0
-              .col-md-9.mb-3.mb-sm-0
+              .col-lg-9.mb-3.mb-sm-0
                 p.p-4.mb-0 Dentro del plan se debe generar una base de manejo y medidas preventivas a realizar con los animales enfocándose en el control, prevención y erradicación de enfermedades que puedan afectar el proceso de producción, por lo que puede tomar la guía de elaboración del plan sanitario destinada por el Instituto Colombiano Agropecuario, descargando el siguiente documento:
-              .col-md-3
+              .col-lg-3.p-3
                 a.boton.color-acento-botones(:href="obtenerLink('downloads/Guia_para_la_elaboracion_del_plan_sanitario.pdf')" target="_blank")
                   span.text-dark Descargar
                   i.text-dark.fas.fa-link
@@ -270,7 +270,7 @@
             .row.justify-content-center.align-items-center.mb-0.p-md-3
               .col-lg-7.mb-sm-0
                 p.p-4.mb-0 A continuación, se presenta una guía práctica de cómo tomar y conservar muestras de laboratorio para el análisis y diagnóstico de la enfermedad que afecta el animal:
-              .col-lg-5
+              .col-lg-5.p-3
                 a.boton.color-acento-botones(:href="obtenerLink('downloads/Toma_de_muestras_y_envio.pdf')" target="_blank")
                   span.text-dark Descargar
                   i.text-dark.fas.fa-link
@@ -293,16 +293,16 @@
       .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 3.
           span  Sujeción en animales de producción
-      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema4/img_19.svg', alt='Muestra la enumeración de las 4 técnicas de sujeción en animales de producción: 1. Método de las tres lazadas. 2. Método con pial.3. Método de la X.4. Método de derribar terneros.')
-      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+      .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema4/img_20.svg', alt='Muestra la enumeración de las 4 técnicas de sujeción en animales de producción: 1. Método de las tres lazadas. 2. Método con pial.3. Método de la X.4. Método de derribar terneros.')
-      .col-lg-3(data-aos="fade-left")
+      .col-md-6.col-lg-3(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema4/img_21.svg', alt='Muestra la enumeración de las 4 técnicas de sujeción en animales de producción: 1. Método de las tres lazadas. 2. Método con pial.3. Método de la X.4. Método de derribar terneros.')
-      .col-lg-3(data-aos="fade-left")
+      .col-md-6.col-lg-3(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema4/img_22.svg', alt='Muestra la enumeración de las 4 técnicas de sujeción en animales de producción: 1. Método de las tres lazadas. 2. Método con pial.3. Método de la X.4. Método de derribar terneros.')
 

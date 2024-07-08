@@ -34,7 +34,7 @@
         p.p-3 Dado lo anterior es importante tener algunos aspectos a tener en cuenta en la conducción y movilización de animales:
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
-      .col-lg-6
+      .col-lg-6.mb-3
         .tarjeta.tarjeta--gris.p-4
           ul.lista-ul.mb-0
             li
@@ -78,10 +78,10 @@
             img.img-t.m-auto(src='@/assets/curso/images/tema3/img_7.svg', alt='')
           .tarjeta.color-primario.shadow-sm
             .row.justify-content-center.align-items-center.mb-0.p-md-3
-              .col-md-10.mb-3.mb-sm-0
-                h3.p-4.mb-0 Movilización de Ganado
-                p.p-4.mb-0 Puede ampliar algunos de los requisitos para movilización y transporte para el caso bovino en el territorio nacional, ingresando a la siguiente página web:  
-              .col-md-2
+              .col-lg-10.mb-3.mb-sm-0.p-4
+                h3.mb-0 Movilización de Ganado
+                p.mb-0 Puede ampliar algunos de los requisitos para movilización y transporte para el caso bovino en el territorio nacional, ingresando a la siguiente página web:  
+              .col-lg-2.p-3
                 a.boton.color-acento-botones(:href="('https://www.minagricultura.gov.co/Normatividad/Paginas/Decreto-1071-2015/CAPITULO-2-Movilizacion-de-Ganado.aspx')" target="_blank")
                   span.text-dark Abrir
                   i.text-dark.fas.fa-link
@@ -90,7 +90,7 @@
       .col-lg-10        
         .tarjeta.mb-3(data-aos="zoom-in-up")
           .row.justify-content-center.align-items-star
-            .col-md-6.mb-3.mb-md-0.p-4
+            .col-lg-6.mb-3.mb-md-0.p-4
               h4.mb-3.text-white.bg-c1.py-2.px-3 Técnicas de movilización
               p.mb-3 
                 | Es importante el control y manejo para el grupo de animales basado en la manera oportuna de prevenir percances durante el traslado. Dado lo anterior revisemos algunas de las técnicas de movilización que se deben considerar:
@@ -104,19 +104,19 @@
     TabsC.color-acento-contenido.mb-3
       .py-3.py-md-4(titulo="Zona de huida o de fuga")
         .row
-          .col-md-7
+          .col-lg-7.mb-3
             figure
               img(src='@/assets/curso/images/tema3/img_4.png', alt='')
-          .col-md-5.mb-4.mb-md-0
+          .col-lg-5.mb-4.mb-md-0
             p Es la manera más adecuada para movilizar cualquier animal de producción dado que es el espacio que tiene para moverse y si un operario lo interrumpe tiende a moverse y si sale de ahí de inmediato se detiene. Este espacio depende de la docilidad del animal y el ángulo de visibilidad hacia la persona que se aproxima, por lo que esta zona de huida se agranda cuando se viene de frente y se minimiza cuando está dentro de un brete de manejo donde cualquier circunstancia de excitación provocará que esta zona aumente de tamaño. 
             p Una persona debe estar lo suficientemente cerca del ganado para lograr que éste camine, pero no demasiado dado que puede provocar el pánico y huida. Finalmente tenga en cuenta que si es un animal manso puede realizar el manejo con una cuerda o bozal pero jamás usar caninos. 
           
       .py-3.py-md-4(titulo="Punto de balance")
         .row
-          .col-md-7.mb-4.mb-md-0
+          .col-lg-7.mb-4.mb-3
             figure
               img(src='@/assets/curso/images/tema3/img_5.png', alt='')
-          .col-md-5
+          .col-lg-5
             p Este es un punto determinante pues la persona ubicada casi atrás genera que el animal camine, pero si se ubica hacia delante el animal retrocederá. En el caso de los bovinos y equinos no se recomienda hacerse detrás en el punto ciego pues la reacción es la de patear y es mejor manejarlos en grupo que individual.
             p Otro principio es que los animales de pastoreo, solos o en grupo, se moverán hacia adelante cuando un vaquero pasa rápidamente su punto de balance de la cruz en dirección contraria a la deseada para el movimiento. Los movimientos descritos en zona del trabajador sirven para inducir al ganado a entrar a una manga reduciendo notablemente o eliminando el uso de la picana eléctrica.
 

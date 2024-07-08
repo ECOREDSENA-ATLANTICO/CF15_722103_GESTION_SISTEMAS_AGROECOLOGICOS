@@ -18,7 +18,7 @@
           img.img-t(src='@/assets/curso/images/tema5/img_1.svg', alt='')
     
     .row.justify-content-center.align-items-center.mb-5.mt-3 
-      .col-md-10
+      .col-lg-10
         .tabla-b.color-acento-contenido
           .tabla-b__header
             h4.mb-0 Medicamentos manejo pecuario
@@ -47,8 +47,9 @@
     .row.mb-4
       .col-auto
         img(src='@/assets/curso/images/tema5/img_7.svg' , alt='')
-      .col-lg-6
+      .col
         h3.mt-4(data-aos="fade-right") Equipos, instrumental e insumos
+        
   
     .row.align-items-center.mb-4
       .col-lg-6(data-aos="fade-right")
@@ -62,10 +63,10 @@
 
     .cajon.bg_color_acento_contenido.p-3.mb-5(data-aos="zoom-in-up")
       .row.justify-content-center.align-items-star.p-3
-        .col-md-6
+        .col-lg-6.mb-3
           figure
             img(src='@/assets/curso/images/tema5/img_3.png', alt='')
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-6.mb-4.mb-md-0
           p.mb-4 Otros elementos básicos son los de realizar labores de mecánica, labranza y sujeción entendiendo que todos estos equipos e instrumentales estén en buen estado, desinfectados, limpios y que sean los apropiados para cada caso. 
           p.mb-4 Finalmente, los insumos dependen del área de alimentación en los que se debe tener por fuente de proteína u otro (cereales, soya) o los de otra área como la de producción agrícola en la cual tendremos como insumo los fertilizantes. Así mismo, habrá otras áreas como producción de acuerdo con el tipo de animal. Es importante que los productores de acuerdo con la proyección y la utilidad determinen la cantidad y utilidad del insumo.
 
