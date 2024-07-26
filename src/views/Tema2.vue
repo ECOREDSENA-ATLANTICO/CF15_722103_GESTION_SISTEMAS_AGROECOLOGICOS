@@ -31,15 +31,15 @@
               ol.lista-ol
                 li.text-small 
                   span.text-bold a. Morfológico:
-                  | características regionales de los animales
+                  | características regionales de los animales.
                 li.text-small 
                   span.text-bold b. Fan
                 li.text-small 
                   span.text-bold c. Eróptico:
-                  | caracteres visibles de la piel y producciones dérmicas grosor y color (pelo, pluma, lana, pezuñas, cuernos, etc.)
+                  | caracteres visibles de la piel y producciones dérmicas grosor y color (pelo, pluma, lana, pezuñas, cuernos, etc.).
                 li.text-small 
                   span.text-bold d. Funcional:
-                  | caracteres de aptitud que se aprecian a simple vista (genética) pero se manifiestan por la acción del medio ambiente por la acción de agentes (climáticos, alimenticios y patológicos)
+                  | caracteres de aptitud que se aprecian a simple vista (genética), pero se manifiestan por la acción del medio ambiente y de agentes (climáticos, alimenticios y patológicos).
 
             .col-lg-6.mb-lg-6.mt-auto(data-aos="fade-left")
               figure
@@ -77,7 +77,7 @@
             .col-lg-6.mb-3.mb-md-0.p-5
               p.mb-3 
                 span.text-bold Artificial: 
-                | es la más utilizada y sobre la cual profundizamos dado que es una identificación que se realiza por medio de:
+                | es la más utilizada y sobre la cual profundizamos, dado que es una identificación que se realiza por medio de:
 
               ul.lista-ul--color
                 li 
@@ -85,7 +85,7 @@
                   | Chapeta u orejera, microchips o collares. 
                 li 
                   i.fas.fa-check.txt--green 
-                  | Señal incisión o mutilación de la oreja 
+                  | Señal incisión o mutilación de la oreja.
                 li 
                   i.fas.fa-check.txt--green 
                   | Marca signo que permite identificar de manera colectiva o individual, generado con hierro caliente, nitrógeno frío, ácidos o tinta. 
@@ -102,7 +102,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_9.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 De acuerdo a lo anterior podemos clasificar las marcas con una señal para identificación pecuaria de forma grupal o individual.
+            p.mb-0 De acuerdo a lo anterior, podemos clasificar las marcas con una señal para identificación pecuaria de forma grupal o individual.
 
     SlyderF(columnas="col-md-6 col-xl-3").mb-5
       .tarjeta.jumbotron 
@@ -112,7 +112,7 @@
         p.p-4 
           span.text-bold Lesión 
           br 
-          | Pérdida de sustancia (amputaciones) o sin pérdida (tatuajes) 
+          | Pérdida de sustancia (amputaciones) o sin pérdida (tatuajes).
 
       .tarjeta.jumbotron 
         .row.justify-content-center

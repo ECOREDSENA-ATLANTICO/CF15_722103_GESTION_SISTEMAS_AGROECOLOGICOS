@@ -13,7 +13,7 @@
         img(src='@/assets/curso/images/tema4/img_23.png', alt='')
       .col-md-10
         .jumbotron-6.p-3.mb-5
-            p.mb-0 De acuerdo con la composición, disposición, ubicación y relación topográfica de los diferentes órganos que componen el organismo de los animales es importante tener en cuenta la organización estructural de los seres vivos y en esencia a los puntos de referencia, a continuación:
+            p.mb-0 De acuerdo con la composición, disposición, ubicación y relación topográfica de los diferentes órganos que componen el organismo de los animales, es importante tener en cuenta, la organización estructural de los seres vivos y en esencia a los puntos de referencia, a continuación:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-10
@@ -117,12 +117,12 @@
                 .tarjeta.tarjeta--gris.shadow-sm
                   .p-4
                     h4 No infecciosas 
-                    p.text-small Consecuencias de lesiones, desnutrición, anormalidades genéticas entre otras.
+                    p.text-small Consecuencias de lesiones, desnutrición, anormalidades genéticas, entre otras.
     
     .bg_16.p-4.p-lg-5.mb-lg-0.mb-3
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-6(data-aos="fade-left")
-          p Una vez se han reconocido los tipos se pueden describir las enfermedades más comunes de las especies pecuarias. Revisa la descripción de cada una: 
+          p Una vez se han reconocido los tipos, se pueden describir las enfermedades más comunes de las especies pecuarias. Revisa la descripción de cada una: 
         .col-lg-6(data-aos="fade-right")
           img.m-auto(src='@/assets/curso/images/tema4/img_9.svg', alt='') 
      
@@ -134,23 +134,23 @@
               .col-12
                 p.mb-0 causada por un virus y presentada en todas las especies. Es endémica, epidémica y esporádica en todo el territorio nacional. Su contaminación es por medio de la saliva donde el virus penetra por pequeñas heridas o excoriaciones que se presentan en la mucosa de boca o faringe. Los síntomas son unas vesículas en la boca.
 
-            .row(titulo="Leptospirosis")
+            .row(titulo="Leptospirosis:")
               .col-12
-                p.mb-0 producida por la leptospira, de la cual existen varias especies, que atacan a los animales y al hombre. Se presenta en equinos, bovinos, ovinos, caprinos y porcinos donde suele presentarse en todo el país y es endémica. <br> Los animales contaminados eliminan permanentemente el virus por la orina y si se contamina el agua de charcas, permanece viva y puede ser ingerida por otros animales, atravesando la pared intestinal y llegando a la sangre. <br> Fiebre aftosa o glosopeda Se caracteriza por la presencia de estomatitis, problemas vesiculares en pezuñas y glándula mamaria, por ser de alta morbilidad. Es causada por virus en especies como bovinos, porcinos, ovinos y caprinos. Se presenta en todo el país en forma endémica, epidémica y esporádica. Cuando el virus penetra, presentando fiebre, por la presencia del virus en la sangre, (viremia), llegando a todo el organismo, afectando el miocardio, inflamación y degeneración que puede ocasionar la muerte. Brucelosis o aborto infeccioso. <br>La produce la Brucella, que es una enfermedad Zoonótica, de la cual hay varias especies: B. abortus, B. Bovis, B. melitensis, y B. suis. Se presenta en todas las especies, es endémica. Son portadores, los animales sanos se contaminan por vía oral y la sintomatología es fiebre e inflamación en algunas partes en la especie equina (mal de la cruz)
+                p.mb-0 producida por la leptospira, de la cual existen varias especies, que atacan a los animales y al hombre. Se presenta en equinos, bovinos, ovinos, caprinos y porcinos donde suele presentarse en todo el país y es endémica. <br> Los animales contaminados eliminan permanentemente el virus por la orina y si se contamina el agua de charcas, permanece viva y puede ser ingerida por otros animales, atravesando la pared intestinal y llegando a la sangre. <br> Se caracteriza por la presencia de estomatitis, problemas vesiculares en pezuñas y glándula mamaria, por ser de alta morbilidad. Es causada por virus en especies como bovinos, porcinos, ovinos y caprinos. Se presenta en todo el país en forma endémica, epidémica y esporádica. Cuando el virus penetra, presentando fiebre, por la presencia del virus en la sangre, (viremia), llegando a todo el organismo, afectando el miocardio, inflamación y degeneración que puede ocasionar la muerte. Brucelosis o aborto infeccioso. <br>La produce la Brucella, que es una enfermedad Zoonótica, de la cual hay varias especies: B. abortus, B. Bovis, B. melitensis, y B. suis. Se presenta en todas las especies, es endémica. Son portadores, los animales sanos se contaminan por vía oral y la sintomatología es fiebre e inflamación en algunas partes en la especie equina (mal de la cruz)
 
-            .row(titulo="Salmonelosis")
+            .row(titulo="Salmonelosis:")
               .col-12
                 p.mb-0 se producen enfermedades en los animales y en las personas. Es una enfermedad infecciosa caracterizada por síntomas gastroentéricos, causada por varias especies de Salmonella atacando los bovinos, equinos, porcinos y aves. Se presenta en forma endémica y esporádica. <br> En bovinos, la salmonelosis se puede presentar en forma septicémica o sobreaguda, fiebre, depresión, postración y muerte en equinos, se caracteriza por diarrea en potros, artritis y aborto en adultos y en porcinos por artritis y diarrea.
 
-            .row(titulo="Rabia")
+            .row(titulo="Rabia:")
               .col-12
                 p.mb-0 causada por un virus neurotrópico atacando a todas las especies animales incluyendo el hombre. Se propaga por la mordedura de animales enfermos, por la presencia de saliva en mucosas sanas. <br> Se presenta en todo el territorio nacional, es endémica y esporádica donde su manifestación es la súper excitación, midriasis y el animal se vuelve violento. En el momento no se tiene tratamiento alguno.
                 
-            .row(titulo="Paratuberculosis o enfermedad de Jhones")
+            .row(titulo="Paratuberculosis o enfermedad de Jhones:")
               .col-12
                 p.mb-0 es una enfermedad infecciosa crónica hipertrofiante de la mucosa intestinal, bacteria Mycobacterium paratuberculosis, se presenta en bovinos y ovinos donde hay disminución del apetito, posteriormente enflaquecimiento, atrofia de músculos glúteos, hundimiento de ojos, diarrea persistente, por períodos el animal vuelve a comer y puede volverse a presentar por bajas defensas.
                 
-            .row(titulo="Tuberculosis")
+            .row(titulo="Tuberculosis:")
               .col-12
                 p.mb-0 es conocida como Micobacterium tuberculoso o Bacilo de Koch. Es de presentación en zonas de clima frío, se disemina en instrumentos o por el aire y su sintomatología es respiratoria. En general una cantidad de animales puede verse gravemente afectada en pocos meses de infección, mientras que otros animales tardan varios años en desarrollar signos clínicos. La bacteria también puede permanecer latente en el huésped sin causar enfermedad durante largos periodos.
               
@@ -169,46 +169,46 @@
               .col-12
                 p.mb-0 es una enfermedad que se penetra por heridas o cordón umbilical mal curado presentando síntomas nerviosos, con parálisis muscular y muerte.
 
-            .row(titulo="Carbón bacteridiano")
+            .row(titulo="Carbón bacteridiano:")
               .col-12
                 p.mb-0 fiebre esplénica, ántrax, carbunco, peste rayo Bacillus anthracis produce una enfermedad contagiosa (carbunco o ántrax maligno), que afecta a los seres humanos y a los animales presentando aturdimiento postración y muerte súbita.
 
-            .row(titulo="Carbón sintomático gangrena gaseosa, pierna negra")
+            .row(titulo="Carbón sintomático gangrena gaseosa, pierna negra:")
               .col-12
                 p.mb-0 es una enfermedad bacteriana aguda debida a la contaminación de heridas con Clostridium septicum (Cl. Chauvei, Cl. Oedematiens, y Cl. Welchii) Esta enfermedad es del grupo de la gangrena gaseosa que produce gas cuando están sobre el animal en tejidos descompuestos. Se da en cualquier especie.
 
-            .row(titulo="Rinotraqueitis bovina infecciosa")
+            .row(titulo="Rinotraqueitis bovina infecciosa:")
               .col-12
-                p.mb-0 enfermedad en bovinos, causada por un herpes bovino tipo 1 que puede atacar los sistemas respiratorio, reproductor, nervioso y digestivo presentando una inflamación del tracto respiratorio. El virus puede invadir la placenta y el feto a través de la corriente sanguínea materna y causar aborto o muerte en los primeros días de nacido. En los terneros causa encefalitis y produce necrosis oral y gástrica. <br> Diarrea viral bovina Enfermedad infecciosa del ganado vacuno, causada por un virus, con sintomatología de por diarrea y deshidratación, y en los terneros jóvenes artritis (síndrome del ternero débil) y una enfermedad ulcerativa crónica del tracto digestivo en animales mayores. Por lo general es una enfermedad de muerte rápida en 48 horas. El virus puede causar aborto en las vacas preñadas y no hay un tratamiento específico.
+                p.mb-0 enfermedad en bovinos, causada por un herpes bovino tipo 1 que puede atacar los sistemas respiratorio, reproductor, nervioso y digestivo presentando una inflamación del tracto respiratorio. El virus puede invadir la placenta y el feto a través de la corriente sanguínea materna y causar aborto o muerte en los primeros días de nacido. En los terneros causa encefalitis y produce necrosis oral y gástrica. <br> Diarrea viral bovina Enfermedad infecciosa del ganado vacuno, causada por un virus, con sintomatología de por diarrea y deshidratación, y en los terneros jóvenes artritis (síndrome del ternero débil) y una enfermedad ulcerativa crónica del tracto digestivo en animales mayores. Por lo general, es una enfermedad de muerte rápida en 48 horas. El virus puede causar aborto en las vacas preñadas y no hay un tratamiento específico.
                 
-            .row(titulo="Toxoplasmosis")
+            .row(titulo="Toxoplasmosis:")
               .col-12
                 p.mb-0 es una enfermedad producida por el Toxoplasma gondii, ataca a todas las especies animales y al hombre. Se puede propagar por vía uterina, oral o por contacto con animales enfermos. Las palomas son portadoras sanas del parásito. La sintomatología enflaquecimiento progresivo, fiebre, diarrea sanguinolenta, hipertrofia de ganglios linfáticos, disnea y encefalitis, trastornos del sistema nervioso central, aborto, partos prematuros y trastornos de la locomoción.
 
       .row.justify-content-center.mb-1
         .col-lg-6
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-            .row(titulo="Distomatosis hepática Conocida como Mariposa del hígado")
+            .row(titulo="Distomatosis hepática Conocida como Mariposa del hígado:")
               .col-12
                 p.mb-0 es una inflamación aguda ó crónica del hígado y vías biliares, producida por un parásito llamado Fasciola hepática. Es una enfermedad endémica de climas fríos, que produce grandes pérdidas en el ganado bovino de leche y carne.
 
-            .row(titulo="Anaplasma y babesiosis La babesiosis y anaplasmosis bovinas")
+            .row(titulo="Anaplasma y babesiosis La babesiosis y anaplasmosis bovinas:")
               .col-12
                 p.mb-0 son enfermedades que afectan al ganado bovino. Causada por protozoos intracelulares que causa fiebre, anemia, hemoglobinuria e ictericia.
 
-            .row(titulo="Mycoplasma Mycoplasma hyopneumoniae")
+            .row(titulo="Mycoplasma Mycoplasma hyopneumoniae:")
               .col-12
                 p.mb-0 es una bacteria que causa enfermedad de neumonía enzoótica porcina y es altamente contagiosa y crónica que afecta el sistema respiratorio. <br>Peste porcina es una enfermedad viral del Pestivirus de la familia Flaviviridae de los cerdos que es altamente contagiosa, causando fiebre, anorexia, letargia, hemorragias y cianosis en la piel, conjuntivitis, estreñimiento transitorio seguido de diarrea, vómitos ocasionales, disnea, tos, ataxia, convulsiones. Mortalidad Parvovirosis producido por un virus de la especie Parvoviridae de los cerdos, causa problemas reproductivos infección embrionaria y fetal y muerte.
 
-            .row(titulo="Influenza aviar")
+            .row(titulo="Influenza aviar:")
               .col-12
                 p.mb-0 enfermedad viral que afecta a las aves familia Orthomyxoviridae respiratorio severo, con lagrimeo ocular excesivo y sinusitis, cianosis de las crestas, barbillas y lo más importante que es una enfermedad zoonótica. <br> Newcastle infección viral altamente contagiosa (virus Paramyxoviridae) afecta a todas las aves. Los signos respiratorios son jadeo, tos, estornudos y ruidos al respirar. Igual presenta signos nerviosos: parálisis de las alas y las patas, cuello torcido, desplazamiento en círculos, espasmos y parálisis.
                 
-            .row(titulo="Paratuberculosis o enfermedad de Jhones")
+            .row(titulo="Paratuberculosis o enfermedad de Jhones:")
               .col-12
                 p.mb-0 es una enfermedad infecciosa crónica hipertrofiante de la mucosa intestinal, bacteria Mycobacterium paratuberculosis, se presenta en bovinos y ovinos donde hay disminución del apetito, posteriormente enflaquecimiento, atrofia de músculos glúteos, hundimiento de ojos, diarrea persistente, por períodos el animal vuelve a comer y puede volverse a presentar por bajas defensas.
                 
-            .row(titulo="Marek Viral herpes alfa neoplásica")
+            .row(titulo="Marek Viral herpes alfa neoplásica:")
               .col-12
                 p.mb-0 sumamente contagiosas de las gallinas. La sintomatología nerviosa se caracteriza en parálisis flácida generalmente unilateral (patas o alas) diarrea y problemas de cuello. <br>Gumboro Bursitis infecciosa, enfermedad altamente contagiosa de pollos jóvenes causada por el virus (Avibirnavirus) causa fiebre, depresión, plumas erizadas, prolapso de cloaca y deshidratación. <br> Encefalitis equina enfermedad en equinos y mulares (Alphavirus) que causa problemas febriles y síntoma logia neurológica.
                 

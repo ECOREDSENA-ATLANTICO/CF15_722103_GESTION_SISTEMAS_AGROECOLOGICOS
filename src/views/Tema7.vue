@@ -25,7 +25,7 @@
                 | Nombre del registro. 
               li
                 i.fas.fa-check.txt--green
-                | Realizado por 
+                | Realizado por. 
               li
                 i.fas.fa-check.txt--green
                 | Fecha de Diligenciamiento.
@@ -127,7 +127,7 @@
       .col-lg-8.mb-5
         p  Garantizar la calidad de la producción y la seguridad de las producciones, requieren una organización de los sistemas de gestión de calidad, pues la visualización de cada empresa es incrementar los volúmenes de producción con el fin de satisfacer las necesidades de alimentación de la población.
         p  Esta implementación ha traído buenos resultados con el fin de impulsar el desarrollo de las producciones (trazabilidad) pero va muy relacionada con factores genéticos, nutricionales, ambientales, sanitarios, manejo y sus interacciones.
-        p  Por eso la tendencia mundial es implementar sistemas de gestión que cambien la perspectiva de la cadena productiva de las especies animal, con el fin de identificar y prevenir toda clase de riesgo.
+        p  Por eso, la tendencia mundial es implementar sistemas de gestión que cambien la perspectiva de la cadena productiva de la especie animal, con el fin de identificar y prevenir toda clase de riesgo.
 
       .col-md-4.mb-5
         figure

@@ -31,7 +31,7 @@
             p.mb-0 El transporte o desplazamiento de animales se debe realizar de la manera más calmada posible y sin ocasionar ningún daño o dolor minimizando los procesos de estrés haciendo la guianza dentro de la planta o hacia otros lugares. Si es necesario un medio de transporte debe realizarse según los parámetros técnicos establecidos en los cuales se incluyen las actividades de carga, descarga, transbordo y descenso.
               |
               br
-        p.p-3 Dado lo anterior es importante tener algunos aspectos a tener en cuenta en la conducción y movilización de animales:
+        p.p-3 Dado lo anterior, es importante tener algunos aspectos a tener en cuenta en la conducción y movilización de animales:
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-6.mb-3
@@ -51,13 +51,13 @@
               | Planes de contingencia. 
             li
               i.fas.fa-check.txt--green
-              | Selección de la especie animal apta para transportar
+              | Selección de la especie animal apta para transportar.
             li
               i.fas.fa-check.txt--green
               | Instalaciones adecuadas al punto de llegada. 
             li
               i.fas.fa-check.txt--green
-              | Manejo adecuado (no utilizar ningún instrumento que cause dolor) 
+              | Manejo adecuado (no utilizar ningún instrumento que cause dolor).
             li
               i.fas.fa-check.txt--green
               | Períodos de descanso y fuentes de agua.
@@ -93,7 +93,7 @@
             .col-lg-6.mb-3.mb-md-0.p-4
               h4.mb-3.text-white.bg-c1.py-2.px-3 Técnicas de movilización
               p.mb-3 
-                | Es importante el control y manejo para el grupo de animales basado en la manera oportuna de prevenir percances durante el traslado. Dado lo anterior revisemos algunas de las técnicas de movilización que se deben considerar:
+                | Es importante el control y manejo para el grupo de animales basado en la manera oportuna de prevenir percances durante el traslado. Dado lo anterior, revisemos algunas de las técnicas de movilización que se deben considerar:
             
             .col-lg-6.mb-0.mb-lg-6.mt-auto(data-aos="fade-left")
               figure

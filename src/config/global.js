@@ -49,7 +49,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Conducción y movimiento de animalese',
+        titulo: 'Conducción y movimiento de animales',
         desarrolloContenidos: true,
       },
       {
@@ -314,7 +314,7 @@ export default {
         },
         {
           nombre: 'Miguel De Jesús Paredes Maestre',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
@@ -325,13 +325,13 @@ export default {
       autores: [
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Desarrollo Curricular',
+          cargo: 'Responsable de desarrollo curricular',
           centro:
             'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
         {
           nombre: 'Diana Julieth Núñez Ortegón',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro: 'Centro de Comercio y Servicio - Regional Tolima',
         },
         {
@@ -342,7 +342,7 @@ export default {
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Asesora Metodológica',
+          cargo: 'Asesora metodológica',
           centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
         {
@@ -386,7 +386,7 @@ export default {
         },
         {
           nombre: 'Liborio de Jesús Castañeda Valencia',
-          cargo: 'Desarrollo Fullstack Junior',
+          cargo: 'Desarrollo full stack junior',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
